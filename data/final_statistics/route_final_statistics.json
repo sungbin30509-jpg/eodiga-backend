@@ -1,0 +1,333 @@
+{
+  "source": "600_OD_actual_TMAP_MOCT_LINK_pipeline",
+  "total_od_count": 600,
+  "total_candidate_route_count": 1800,
+  "usable_route_distribution": {
+    "0": 71,
+    "1": 23,
+    "2": 74,
+    "3": 432
+  },
+  "adapter_status_counts": {
+    "success": 529,
+    "no_usable_routes": 71
+  },
+  "mapping_quality_counts_all_candidates": {
+    "good": 1169,
+    "recovered": 131,
+    "review": 167,
+    "poor": 288,
+    "failed": 45,
+    "unknown": 0
+  },
+  "usable_route_count": 1467,
+  "coverage_statistics": {
+    "all_candidate_routes_raw_mapping": {
+      "count": 1800,
+      "average": 89.45,
+      "median": 95.82,
+      "minimum": 0.0,
+      "maximum": 100.0
+    },
+    "usable_routes_only": {
+      "count": 1467,
+      "average": 96.01,
+      "median": 97.92,
+      "minimum": 85.05,
+      "maximum": 100.0
+    },
+    "by_quality": {
+      "good": {
+        "count": 1169,
+        "average": 97.57,
+        "median": 99.01,
+        "minimum": 90.08,
+        "maximum": 100.0
+      },
+      "recovered": {
+        "count": 131,
+        "average": 92.1,
+        "median": 92.06,
+        "minimum": 85.05,
+        "maximum": 99.86
+      },
+      "review": {
+        "count": 167,
+        "average": 88.12,
+        "median": 88.16,
+        "minimum": 85.17,
+        "maximum": 89.96
+      },
+      "poor": {
+        "count": 288,
+        "average": 70.01,
+        "median": 72.42,
+        "minimum": 4.54,
+        "maximum": 84.91
+      },
+      "failed": {
+        "count": 45,
+        "average": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "unknown": {
+        "count": 0,
+        "average": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    }
+  },
+  "lowest_recovered_review_examples": [
+    {
+      "od_id": "OD_000518",
+      "candidate_id": "C",
+      "quality": "recovered",
+      "coverage_percent": 85.05,
+      "connectivity_percent": 96.97,
+      "broken_connections": 1,
+      "search_mode": "controlled_recovery",
+      "recovery_used": true,
+      "virtual_bridge_count": 1
+    },
+    {
+      "od_id": "OD_000113",
+      "candidate_id": "C",
+      "quality": "recovered",
+      "coverage_percent": 85.06,
+      "connectivity_percent": 97.92,
+      "broken_connections": 1,
+      "search_mode": "controlled_recovery",
+      "recovery_used": true,
+      "virtual_bridge_count": 1
+    },
+    {
+      "od_id": "OD_000308",
+      "candidate_id": "C",
+      "quality": "recovered",
+      "coverage_percent": 85.07,
+      "connectivity_percent": 97.92,
+      "broken_connections": 1,
+      "search_mode": "controlled_recovery",
+      "recovery_used": true,
+      "virtual_bridge_count": 1
+    },
+    {
+      "od_id": "OD_000478",
+      "candidate_id": "C",
+      "quality": "recovered",
+      "coverage_percent": 85.11,
+      "connectivity_percent": 98.31,
+      "broken_connections": 1,
+      "search_mode": "controlled_recovery",
+      "recovery_used": true,
+      "virtual_bridge_count": 1
+    },
+    {
+      "od_id": "OD_000287",
+      "candidate_id": "A",
+      "quality": "review",
+      "coverage_percent": 85.17,
+      "connectivity_percent": 100.0,
+      "broken_connections": 0,
+      "search_mode": "strict",
+      "recovery_used": false,
+      "virtual_bridge_count": 0
+    },
+    {
+      "od_id": "OD_000287",
+      "candidate_id": "B",
+      "quality": "review",
+      "coverage_percent": 85.17,
+      "connectivity_percent": 100.0,
+      "broken_connections": 0,
+      "search_mode": "strict",
+      "recovery_used": false,
+      "virtual_bridge_count": 0
+    },
+    {
+      "od_id": "OD_000122",
+      "candidate_id": "C",
+      "quality": "review",
+      "coverage_percent": 85.21,
+      "connectivity_percent": 100.0,
+      "broken_connections": 0,
+      "search_mode": "wide",
+      "recovery_used": false,
+      "virtual_bridge_count": 0
+    },
+    {
+      "od_id": "OD_000296",
+      "candidate_id": "C",
+      "quality": "recovered",
+      "coverage_percent": 85.4,
+      "connectivity_percent": 97.73,
+      "broken_connections": 1,
+      "search_mode": "controlled_recovery",
+      "recovery_used": true,
+      "virtual_bridge_count": 1
+    },
+    {
+      "od_id": "OD_000226",
+      "candidate_id": "C",
+      "quality": "review",
+      "coverage_percent": 85.43,
+      "connectivity_percent": 100.0,
+      "broken_connections": 0,
+      "search_mode": "strict",
+      "recovery_used": false,
+      "virtual_bridge_count": 0
+    },
+    {
+      "od_id": "OD_000019",
+      "candidate_id": "C",
+      "quality": "review",
+      "coverage_percent": 85.45,
+      "connectivity_percent": 100.0,
+      "broken_connections": 0,
+      "search_mode": "wide",
+      "recovery_used": false,
+      "virtual_bridge_count": 0
+    },
+    {
+      "od_id": "OD_000277",
+      "candidate_id": "A",
+      "quality": "review",
+      "coverage_percent": 85.45,
+      "connectivity_percent": 100.0,
+      "broken_connections": 0,
+      "search_mode": "strict",
+      "recovery_used": false,
+      "virtual_bridge_count": 0
+    },
+    {
+      "od_id": "OD_000305",
+      "candidate_id": "C",
+      "quality": "review",
+      "coverage_percent": 85.5,
+      "connectivity_percent": 100.0,
+      "broken_connections": 0,
+      "search_mode": "wide",
+      "recovery_used": false,
+      "virtual_bridge_count": 0
+    },
+    {
+      "od_id": "OD_000073",
+      "candidate_id": "C",
+      "quality": "review",
+      "coverage_percent": 85.53,
+      "connectivity_percent": 100.0,
+      "broken_connections": 0,
+      "search_mode": "wide",
+      "recovery_used": false,
+      "virtual_bridge_count": 0
+    },
+    {
+      "od_id": "OD_000156",
+      "candidate_id": "C",
+      "quality": "recovered",
+      "coverage_percent": 85.64,
+      "connectivity_percent": 98.8,
+      "broken_connections": 1,
+      "search_mode": "controlled_recovery",
+      "recovery_used": true,
+      "virtual_bridge_count": 1
+    },
+    {
+      "od_id": "OD_000075",
+      "candidate_id": "C",
+      "quality": "recovered",
+      "coverage_percent": 85.71,
+      "connectivity_percent": 98.78,
+      "broken_connections": 1,
+      "search_mode": "controlled_recovery",
+      "recovery_used": true,
+      "virtual_bridge_count": 1
+    },
+    {
+      "od_id": "OD_000049",
+      "candidate_id": "C",
+      "quality": "review",
+      "coverage_percent": 85.73,
+      "connectivity_percent": 100.0,
+      "broken_connections": 0,
+      "search_mode": "wide",
+      "recovery_used": false,
+      "virtual_bridge_count": 0
+    },
+    {
+      "od_id": "OD_000345",
+      "candidate_id": "C",
+      "quality": "recovered",
+      "coverage_percent": 85.76,
+      "connectivity_percent": 98.7,
+      "broken_connections": 1,
+      "search_mode": "controlled_recovery",
+      "recovery_used": true,
+      "virtual_bridge_count": 1
+    },
+    {
+      "od_id": "OD_000078",
+      "candidate_id": "C",
+      "quality": "review",
+      "coverage_percent": 85.83,
+      "connectivity_percent": 100.0,
+      "broken_connections": 0,
+      "search_mode": "strict",
+      "recovery_used": false,
+      "virtual_bridge_count": 0
+    },
+    {
+      "od_id": "OD_000458",
+      "candidate_id": "B",
+      "quality": "review",
+      "coverage_percent": 85.84,
+      "connectivity_percent": 100.0,
+      "broken_connections": 0,
+      "search_mode": "wide",
+      "recovery_used": false,
+      "virtual_bridge_count": 0
+    },
+    {
+      "od_id": "OD_000116",
+      "candidate_id": "C",
+      "quality": "review",
+      "coverage_percent": 85.87,
+      "connectivity_percent": 100.0,
+      "broken_connections": 0,
+      "search_mode": "strict",
+      "recovery_used": false,
+      "virtual_bridge_count": 0
+    }
+  ],
+  "seongnam_link_occurrence": {
+    "total": 76808,
+    "inside": 47345,
+    "boundary": 413,
+    "outside": 29050,
+    "unknown": 0,
+    "inside_percent": 61.64,
+    "boundary_percent": 0.54,
+    "outside_percent": 37.82
+  },
+  "seongnam_unique_links": {
+    "total": 2880,
+    "inside": 1057,
+    "boundary": 8,
+    "outside": 1815,
+    "unknown": 0,
+    "inside_percent": 36.7,
+    "boundary_percent": 0.28,
+    "outside_percent": 63.02
+  },
+  "distance_distribution": {
+    "total_classified_distance_m": 13791586.0,
+    "seongnam_distance_m": 8356770.14,
+    "outside_distance_m": 5434815.86,
+    "seongnam_percent": 60.59,
+    "outside_percent": 39.41
+  }
+}

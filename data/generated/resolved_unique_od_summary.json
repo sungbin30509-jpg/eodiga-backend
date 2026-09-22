@@ -1,0 +1,9 @@
+{
+  "location_count": 55,
+  "unique_od_count": 600,
+  "synthetic_user_count": 10000,
+  "origin_location_count": 15,
+  "destination_location_count": 40,
+  "missing_coordinate_count": 0,
+  "output_file": "C:\\Users\\문성빈\\OneDrive\\바탕 화면\\flow\\FLOWMATE\\data\\generated\\resolved_unique_od.csv"
+}

@@ -1,0 +1,28 @@
+{
+  "total_json_file_count": 600,
+  "success_od_count": 325,
+  "failed_od_count": 275,
+  "route_candidate_count": 975,
+  "mapped_route_count": 954,
+  "usable_route_count": 845,
+  "excluded_quality_route_count": 109,
+  "route_link_row_count": 54201,
+  "unique_link_count": 2816,
+  "mapping_quality_distribution": {
+    "good": 669,
+    "poor": 109,
+    "recovered": 100,
+    "review": 76,
+    "failed": 21
+  },
+  "traffic_source_distribution": {
+    "tmap_fallback": 25353,
+    "tmap": 24875,
+    "flow_ai": 3973
+  },
+  "outputs": {
+    "success_od_manifest": "C:\\Users\\문성빈\\OneDrive\\바탕 화면\\flow\\FLOWMATE\\data\\integration\\success_od_manifest.csv",
+    "route_catalog": "C:\\Users\\문성빈\\OneDrive\\바탕 화면\\flow\\FLOWMATE\\data\\integration\\route_catalog.csv",
+    "route_links": "C:\\Users\\문성빈\\OneDrive\\바탕 화면\\flow\\FLOWMATE\\data\\integration\\route_links.csv"
+  }
+}

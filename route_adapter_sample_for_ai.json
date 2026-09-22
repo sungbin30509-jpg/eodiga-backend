@@ -1,0 +1,1783 @@
+{
+  "schema_version": "route_adapter_v2",
+  "status": "success",
+  "source_type": "batch_od",
+  "source_id": "OD_000004",
+  "contract": {
+    "route_id_rule": "{source_id}_{candidate_id}",
+    "usable_mapping_qualities": [
+      "good",
+      "recovered",
+      "review"
+    ],
+    "excluded_mapping_qualities": [
+      "poor",
+      "failed"
+    ],
+    "link_order_base": 0,
+    "LINK_ID_type": "string",
+    "link_length_unit": "m",
+    "node_link_dataset": "[2026-08-12] NODELINKDATA / MOCT_LINK",
+    "link_deduplication": false
+  },
+  "location_resolution": {
+    "resolved": true,
+    "resolution_source": "unique_od_summary",
+    "origin_location_id": "ORG_014",
+    "destination_location_id": "EXT_007",
+    "origin_source_metadata": {
+      "poi_id": "6289967",
+      "name": "경기창조경제혁신센터",
+      "address": "경기 성남시 분당구 삼평동",
+      "lat": 37.40047572,
+      "lon": 127.10393097,
+      "source": null
+    },
+    "destination_source_metadata": {
+      "poi_id": "280185",
+      "name": "사당역[2호선]",
+      "address": "서울 동작구 사당동",
+      "lat": 37.47654804,
+      "lon": 126.98160661,
+      "source": null
+    },
+    "synthetic_od_metadata": {
+      "od_id": "OD_000004",
+      "origin_location_id": "ORG_014",
+      "origin_name": "경기창조경제혁신센터",
+      "destination_location_id": "EXT_007",
+      "destination_name": "사당역",
+      "destination_region": "seoul",
+      "user_count": 32
+    }
+  },
+  "routes": [
+    {
+      "route_id": "OD_000004_A",
+      "origin_location_id": "ORG_014",
+      "destination_location_id": "EXT_007",
+      "links": [
+        {
+          "LINK_ID": "2060194803",
+          "link_order": 0,
+          "link_length_m": 12.05
+        },
+        {
+          "LINK_ID": "2060194802",
+          "link_order": 1,
+          "link_length_m": 224.15
+        },
+        {
+          "LINK_ID": "2060181600",
+          "link_order": 2,
+          "link_length_m": 399.36
+        },
+        {
+          "LINK_ID": "2060181601",
+          "link_order": 3,
+          "link_length_m": 5.68
+        },
+        {
+          "LINK_ID": "2060185300",
+          "link_order": 4,
+          "link_length_m": 232.57
+        },
+        {
+          "LINK_ID": "2060200900",
+          "link_order": 5,
+          "link_length_m": 150.94
+        },
+        {
+          "LINK_ID": "2060274800",
+          "link_order": 6,
+          "link_length_m": 130.76
+        },
+        {
+          "LINK_ID": "2060272900",
+          "link_order": 7,
+          "link_length_m": 858.04
+        },
+        {
+          "LINK_ID": "2040389500",
+          "link_order": 8,
+          "link_length_m": 600.86
+        },
+        {
+          "LINK_ID": "2040389501",
+          "link_order": 9,
+          "link_length_m": 600.86
+        },
+        {
+          "LINK_ID": "2040388700",
+          "link_order": 10,
+          "link_length_m": 514.94
+        },
+        {
+          "LINK_ID": "2040388701",
+          "link_order": 11,
+          "link_length_m": 514.94
+        },
+        {
+          "LINK_ID": "2040412000",
+          "link_order": 12,
+          "link_length_m": 907.98
+        },
+        {
+          "LINK_ID": "2040412002",
+          "link_order": 13,
+          "link_length_m": 614.4
+        },
+        {
+          "LINK_ID": "2040412004",
+          "link_order": 14,
+          "link_length_m": 53.91
+        },
+        {
+          "LINK_ID": "2040412003",
+          "link_order": 15,
+          "link_length_m": 239.67
+        },
+        {
+          "LINK_ID": "1210177500",
+          "link_order": 16,
+          "link_length_m": 612.06
+        },
+        {
+          "LINK_ID": "1210177501",
+          "link_order": 17,
+          "link_length_m": 610.9
+        },
+        {
+          "LINK_ID": "1210000711",
+          "link_order": 18,
+          "link_length_m": 689.19
+        },
+        {
+          "LINK_ID": "1210000722",
+          "link_order": 19,
+          "link_length_m": 689.19
+        },
+        {
+          "LINK_ID": "1210000723",
+          "link_order": 20,
+          "link_length_m": 689.19
+        },
+        {
+          "LINK_ID": "1210000721",
+          "link_order": 21,
+          "link_length_m": 808.13
+        },
+        {
+          "LINK_ID": "1210000702",
+          "link_order": 22,
+          "link_length_m": 128.11
+        },
+        {
+          "LINK_ID": "1210002001",
+          "link_order": 23,
+          "link_length_m": 226.57
+        },
+        {
+          "LINK_ID": "1210002002",
+          "link_order": 24,
+          "link_length_m": 15.03
+        },
+        {
+          "LINK_ID": "1210002005",
+          "link_order": 25,
+          "link_length_m": 66.41
+        },
+        {
+          "LINK_ID": "1210002004",
+          "link_order": 26,
+          "link_length_m": 35.02
+        },
+        {
+          "LINK_ID": "1210002003",
+          "link_order": 27,
+          "link_length_m": 239.91
+        },
+        {
+          "LINK_ID": "1210002900",
+          "link_order": 28,
+          "link_length_m": 288.56
+        },
+        {
+          "LINK_ID": "1210002903",
+          "link_order": 29,
+          "link_length_m": 77.06
+        },
+        {
+          "LINK_ID": "1210002904",
+          "link_order": 30,
+          "link_length_m": 426.87
+        },
+        {
+          "LINK_ID": "1210002902",
+          "link_order": 31,
+          "link_length_m": 110.09
+        },
+        {
+          "LINK_ID": "1210002901",
+          "link_order": 32,
+          "link_length_m": 174.84
+        },
+        {
+          "LINK_ID": "1210002905",
+          "link_order": 33,
+          "link_length_m": 39.94
+        },
+        {
+          "LINK_ID": "1210002906",
+          "link_order": 34,
+          "link_length_m": 874.2
+        },
+        {
+          "LINK_ID": "1210003700",
+          "link_order": 35,
+          "link_length_m": 331.88
+        },
+        {
+          "LINK_ID": "1210044700",
+          "link_order": 36,
+          "link_length_m": 146.1
+        },
+        {
+          "LINK_ID": "1210044500",
+          "link_order": 37,
+          "link_length_m": 165.14
+        },
+        {
+          "LINK_ID": "1210043900",
+          "link_order": 38,
+          "link_length_m": 98.71
+        },
+        {
+          "LINK_ID": "1210043901",
+          "link_order": 39,
+          "link_length_m": 21.6
+        },
+        {
+          "LINK_ID": "1210014202",
+          "link_order": 40,
+          "link_length_m": 97.46
+        },
+        {
+          "LINK_ID": "1210014204",
+          "link_order": 41,
+          "link_length_m": 12.0
+        },
+        {
+          "LINK_ID": "1210014201",
+          "link_order": 42,
+          "link_length_m": 84.36
+        },
+        {
+          "LINK_ID": "1210014207",
+          "link_order": 43,
+          "link_length_m": 119.86
+        },
+        {
+          "LINK_ID": "1210014208",
+          "link_order": 44,
+          "link_length_m": 124.24
+        },
+        {
+          "LINK_ID": "1210014205",
+          "link_order": 45,
+          "link_length_m": 46.27
+        },
+        {
+          "LINK_ID": "1210014206",
+          "link_order": 46,
+          "link_length_m": 32.11
+        },
+        {
+          "LINK_ID": "1210014203",
+          "link_order": 47,
+          "link_length_m": 12.1
+        },
+        {
+          "LINK_ID": "1210013404",
+          "link_order": 48,
+          "link_length_m": 131.91
+        },
+        {
+          "LINK_ID": "1210013409",
+          "link_order": 49,
+          "link_length_m": 23.01
+        },
+        {
+          "LINK_ID": "1210013406",
+          "link_order": 50,
+          "link_length_m": 14.55
+        },
+        {
+          "LINK_ID": "1210013405",
+          "link_order": 51,
+          "link_length_m": 170.14
+        },
+        {
+          "LINK_ID": "1210013408",
+          "link_order": 52,
+          "link_length_m": 16.47
+        },
+        {
+          "LINK_ID": "1210013402",
+          "link_order": 53,
+          "link_length_m": 105.9
+        },
+        {
+          "LINK_ID": "1210013407",
+          "link_order": 54,
+          "link_length_m": 12.06
+        },
+        {
+          "LINK_ID": "1210012401",
+          "link_order": 55,
+          "link_length_m": 121.74
+        },
+        {
+          "LINK_ID": "1210012404",
+          "link_order": 56,
+          "link_length_m": 135.28
+        },
+        {
+          "LINK_ID": "1210012407",
+          "link_order": 57,
+          "link_length_m": 174.35
+        },
+        {
+          "LINK_ID": "1210012406",
+          "link_order": 58,
+          "link_length_m": 62.21
+        },
+        {
+          "LINK_ID": "1210012405",
+          "link_order": 59,
+          "link_length_m": 65.93
+        },
+        {
+          "LINK_ID": "1210012403",
+          "link_order": 60,
+          "link_length_m": 67.43
+        },
+        {
+          "LINK_ID": "1210012402",
+          "link_order": 61,
+          "link_length_m": 12.2
+        },
+        {
+          "LINK_ID": "1210011001",
+          "link_order": 62,
+          "link_length_m": 237.14
+        },
+        {
+          "LINK_ID": "1210011003",
+          "link_order": 63,
+          "link_length_m": 12.0
+        },
+        {
+          "LINK_ID": "1210011002",
+          "link_order": 64,
+          "link_length_m": 37.79
+        },
+        {
+          "LINK_ID": "1210011005",
+          "link_order": 65,
+          "link_length_m": 230.75
+        },
+        {
+          "LINK_ID": "1210011004",
+          "link_order": 66,
+          "link_length_m": 12.01
+        },
+        {
+          "LINK_ID": "1210009903",
+          "link_order": 67,
+          "link_length_m": 122.68
+        },
+        {
+          "LINK_ID": "1210009909",
+          "link_order": 68,
+          "link_length_m": 301.64
+        },
+        {
+          "LINK_ID": "1210009918",
+          "link_order": 69,
+          "link_length_m": 301.64
+        },
+        {
+          "LINK_ID": "1210009913",
+          "link_order": 70,
+          "link_length_m": 114.04
+        },
+        {
+          "LINK_ID": "1210009904",
+          "link_order": 71,
+          "link_length_m": 12.14
+        },
+        {
+          "LINK_ID": "1210009902",
+          "link_order": 72,
+          "link_length_m": 143.84
+        },
+        {
+          "LINK_ID": "1210009906",
+          "link_order": 73,
+          "link_length_m": 144.24
+        },
+        {
+          "LINK_ID": "1210009910",
+          "link_order": 74,
+          "link_length_m": 95.95
+        },
+        {
+          "LINK_ID": "1210009908",
+          "link_order": 75,
+          "link_length_m": 114.21
+        },
+        {
+          "LINK_ID": "1210009915",
+          "link_order": 76,
+          "link_length_m": 115.44
+        },
+        {
+          "LINK_ID": "1210009905",
+          "link_order": 77,
+          "link_length_m": 12.01
+        },
+        {
+          "LINK_ID": "1210178200",
+          "link_order": 78,
+          "link_length_m": 325.35
+        },
+        {
+          "LINK_ID": "1210178201",
+          "link_order": 79,
+          "link_length_m": 325.33
+        }
+      ]
+    },
+    {
+      "route_id": "OD_000004_B",
+      "origin_location_id": "ORG_014",
+      "destination_location_id": "EXT_007",
+      "links": [
+        {
+          "LINK_ID": "2060194803",
+          "link_order": 0,
+          "link_length_m": 12.05
+        },
+        {
+          "LINK_ID": "2060194802",
+          "link_order": 1,
+          "link_length_m": 224.15
+        },
+        {
+          "LINK_ID": "2060181600",
+          "link_order": 2,
+          "link_length_m": 399.36
+        },
+        {
+          "LINK_ID": "2060181601",
+          "link_order": 3,
+          "link_length_m": 5.68
+        },
+        {
+          "LINK_ID": "2060185300",
+          "link_order": 4,
+          "link_length_m": 232.57
+        },
+        {
+          "LINK_ID": "2060200900",
+          "link_order": 5,
+          "link_length_m": 150.94
+        },
+        {
+          "LINK_ID": "2060274800",
+          "link_order": 6,
+          "link_length_m": 130.76
+        },
+        {
+          "LINK_ID": "2060272900",
+          "link_order": 7,
+          "link_length_m": 858.04
+        },
+        {
+          "LINK_ID": "2040389500",
+          "link_order": 8,
+          "link_length_m": 600.86
+        },
+        {
+          "LINK_ID": "2040389501",
+          "link_order": 9,
+          "link_length_m": 600.86
+        },
+        {
+          "LINK_ID": "2040388700",
+          "link_order": 10,
+          "link_length_m": 514.94
+        },
+        {
+          "LINK_ID": "2040388701",
+          "link_order": 11,
+          "link_length_m": 514.94
+        },
+        {
+          "LINK_ID": "2040412000",
+          "link_order": 12,
+          "link_length_m": 907.98
+        },
+        {
+          "LINK_ID": "2040412002",
+          "link_order": 13,
+          "link_length_m": 614.4
+        },
+        {
+          "LINK_ID": "2040412004",
+          "link_order": 14,
+          "link_length_m": 53.91
+        },
+        {
+          "LINK_ID": "2040412003",
+          "link_order": 15,
+          "link_length_m": 239.67
+        },
+        {
+          "LINK_ID": "1210177500",
+          "link_order": 16,
+          "link_length_m": 612.06
+        },
+        {
+          "LINK_ID": "1210177501",
+          "link_order": 17,
+          "link_length_m": 610.9
+        },
+        {
+          "LINK_ID": "1210000711",
+          "link_order": 18,
+          "link_length_m": 689.19
+        },
+        {
+          "LINK_ID": "1210000722",
+          "link_order": 19,
+          "link_length_m": 689.19
+        },
+        {
+          "LINK_ID": "1210000723",
+          "link_order": 20,
+          "link_length_m": 689.19
+        },
+        {
+          "LINK_ID": "1210000721",
+          "link_order": 21,
+          "link_length_m": 808.13
+        },
+        {
+          "LINK_ID": "1210000702",
+          "link_order": 22,
+          "link_length_m": 128.11
+        },
+        {
+          "LINK_ID": "1210002001",
+          "link_order": 23,
+          "link_length_m": 226.57
+        },
+        {
+          "LINK_ID": "1210002002",
+          "link_order": 24,
+          "link_length_m": 15.03
+        },
+        {
+          "LINK_ID": "1210002005",
+          "link_order": 25,
+          "link_length_m": 66.41
+        },
+        {
+          "LINK_ID": "1210002004",
+          "link_order": 26,
+          "link_length_m": 35.02
+        },
+        {
+          "LINK_ID": "1210002300",
+          "link_order": 27,
+          "link_length_m": 287.03
+        },
+        {
+          "LINK_ID": "1210181101",
+          "link_order": 28,
+          "link_length_m": 839.7
+        },
+        {
+          "LINK_ID": "1210072600",
+          "link_order": 29,
+          "link_length_m": 952.42
+        },
+        {
+          "LINK_ID": "1210072400",
+          "link_order": 30,
+          "link_length_m": 492.23
+        },
+        {
+          "LINK_ID": "1210072200",
+          "link_order": 31,
+          "link_length_m": 908.47
+        },
+        {
+          "LINK_ID": "1210072201",
+          "link_order": 32,
+          "link_length_m": 908.47
+        },
+        {
+          "LINK_ID": "1210072202",
+          "link_order": 33,
+          "link_length_m": 908.47
+        },
+        {
+          "LINK_ID": "1210071600",
+          "link_order": 34,
+          "link_length_m": 446.22
+        },
+        {
+          "LINK_ID": "1210008111",
+          "link_order": 35,
+          "link_length_m": 274.76
+        },
+        {
+          "LINK_ID": "1210008136",
+          "link_order": 36,
+          "link_length_m": 272.54
+        },
+        {
+          "LINK_ID": "1210008133",
+          "link_order": 37,
+          "link_length_m": 10.59
+        },
+        {
+          "LINK_ID": "1210008103",
+          "link_order": 38,
+          "link_length_m": 57.43
+        },
+        {
+          "LINK_ID": "1210008132",
+          "link_order": 39,
+          "link_length_m": 24.2
+        },
+        {
+          "LINK_ID": "1210010905",
+          "link_order": 40,
+          "link_length_m": 12.02
+        },
+        {
+          "LINK_ID": "1210013208",
+          "link_order": 41,
+          "link_length_m": 24.04
+        }
+      ]
+    }
+  ],
+  "route_metadata": {
+    "OD_000004_A": {
+      "candidate_id": "A",
+      "route_label": "traffic_optimal",
+      "search_option": "0",
+      "source": "tmap",
+      "tmap_eta_sec": 1408.0,
+      "tmap_eta_min": 23.5,
+      "mapping": {
+        "mapping_status": "mapped",
+        "mapping_quality": "recovered",
+        "mapping_method": "topology_controlled_recovery_v1",
+        "search_mode": "controlled_recovery",
+        "coverage_percent": 90.34,
+        "connectivity_percent": 98.73,
+        "length_ratio": 0.938,
+        "matched_link_count": 80,
+        "broken_connections": 1,
+        "tmap_route_distance_m": 19110.0,
+        "tmap_geometry_length_m": 19110.07,
+        "matched_geometry_length_m": 17925.64,
+        "mapped_link_length_sum_m": 17925.59,
+        "geometry_length_delta_m": 1184.43,
+        "residual_distance_m": 1846.03,
+        "residual_distance_method": "coverage_estimate",
+        "recovery_used": true,
+        "virtual_bridge_count": 1,
+        "virtual_bridge_total_length_m": null,
+        "virtual_bridges": [
+          {
+            "type": "virtual_bridge",
+            "from_link_id": "1210003700",
+            "to_link_id": "1210044700",
+            "physical_gap_m": 36.53,
+            "route_progress_gap_m": -6.04
+          }
+        ],
+        "has_duplicate_link_ids": false,
+        "duplicate_link_id_count": 0,
+        "duplicate_occurrences": {}
+      },
+      "seongnam": {
+        "status": "classified",
+        "total_link_count": 80,
+        "inside_link_count": 16,
+        "boundary_crossing_link_count": 0,
+        "outside_link_count": 64,
+        "seongnam_intersecting_link_count": 16,
+        "seongnam_distance_m": 6061.13,
+        "outside_distance_m": 11864.48,
+        "total_classified_distance_m": 17925.61,
+        "seongnam_distance_ratio_percent": 33.81,
+        "link_classification": [
+          {
+            "LINK_ID": "2060194803",
+            "link_order": 0,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 12.05,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2060194802",
+            "link_order": 1,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 224.15,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2060181600",
+            "link_order": 2,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 399.36,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2060181601",
+            "link_order": 3,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 5.68,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2060185300",
+            "link_order": 4,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 232.57,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2060200900",
+            "link_order": 5,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 150.94,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2060274800",
+            "link_order": 6,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 130.76,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2060272900",
+            "link_order": 7,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 858.04,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2040389500",
+            "link_order": 8,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 600.86,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2040389501",
+            "link_order": 9,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 600.86,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2040388700",
+            "link_order": 10,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 514.94,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2040388701",
+            "link_order": 11,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 514.94,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2040412000",
+            "link_order": 12,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 907.98,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2040412002",
+            "link_order": 13,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 614.4,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2040412004",
+            "link_order": 14,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 53.91,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2040412003",
+            "link_order": 15,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 239.67,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "1210177500",
+            "link_order": 16,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 612.06
+          },
+          {
+            "LINK_ID": "1210177501",
+            "link_order": 17,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 610.9
+          },
+          {
+            "LINK_ID": "1210000711",
+            "link_order": 18,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 689.19
+          },
+          {
+            "LINK_ID": "1210000722",
+            "link_order": 19,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 689.19
+          },
+          {
+            "LINK_ID": "1210000723",
+            "link_order": 20,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 689.19
+          },
+          {
+            "LINK_ID": "1210000721",
+            "link_order": 21,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 808.13
+          },
+          {
+            "LINK_ID": "1210000702",
+            "link_order": 22,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 128.11
+          },
+          {
+            "LINK_ID": "1210002001",
+            "link_order": 23,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 226.57
+          },
+          {
+            "LINK_ID": "1210002002",
+            "link_order": 24,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 15.03
+          },
+          {
+            "LINK_ID": "1210002005",
+            "link_order": 25,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 66.41
+          },
+          {
+            "LINK_ID": "1210002004",
+            "link_order": 26,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 35.02
+          },
+          {
+            "LINK_ID": "1210002003",
+            "link_order": 27,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 239.91
+          },
+          {
+            "LINK_ID": "1210002900",
+            "link_order": 28,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 288.56
+          },
+          {
+            "LINK_ID": "1210002903",
+            "link_order": 29,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 77.06
+          },
+          {
+            "LINK_ID": "1210002904",
+            "link_order": 30,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 426.87
+          },
+          {
+            "LINK_ID": "1210002902",
+            "link_order": 31,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 110.09
+          },
+          {
+            "LINK_ID": "1210002901",
+            "link_order": 32,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 174.84
+          },
+          {
+            "LINK_ID": "1210002905",
+            "link_order": 33,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 39.94
+          },
+          {
+            "LINK_ID": "1210002906",
+            "link_order": 34,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 874.2
+          },
+          {
+            "LINK_ID": "1210003700",
+            "link_order": 35,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 331.88
+          },
+          {
+            "LINK_ID": "1210044700",
+            "link_order": 36,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 146.1
+          },
+          {
+            "LINK_ID": "1210044500",
+            "link_order": 37,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 165.14
+          },
+          {
+            "LINK_ID": "1210043900",
+            "link_order": 38,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 98.71
+          },
+          {
+            "LINK_ID": "1210043901",
+            "link_order": 39,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 21.6
+          },
+          {
+            "LINK_ID": "1210014202",
+            "link_order": 40,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 97.46
+          },
+          {
+            "LINK_ID": "1210014204",
+            "link_order": 41,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 12.0
+          },
+          {
+            "LINK_ID": "1210014201",
+            "link_order": 42,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 84.36
+          },
+          {
+            "LINK_ID": "1210014207",
+            "link_order": 43,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 119.86
+          },
+          {
+            "LINK_ID": "1210014208",
+            "link_order": 44,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 124.24
+          },
+          {
+            "LINK_ID": "1210014205",
+            "link_order": 45,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 46.27
+          },
+          {
+            "LINK_ID": "1210014206",
+            "link_order": 46,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 32.11
+          },
+          {
+            "LINK_ID": "1210014203",
+            "link_order": 47,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 12.1
+          },
+          {
+            "LINK_ID": "1210013404",
+            "link_order": 48,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 131.91
+          },
+          {
+            "LINK_ID": "1210013409",
+            "link_order": 49,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 23.01
+          },
+          {
+            "LINK_ID": "1210013406",
+            "link_order": 50,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 14.55
+          },
+          {
+            "LINK_ID": "1210013405",
+            "link_order": 51,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 170.14
+          },
+          {
+            "LINK_ID": "1210013408",
+            "link_order": 52,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 16.47
+          },
+          {
+            "LINK_ID": "1210013402",
+            "link_order": 53,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 105.9
+          },
+          {
+            "LINK_ID": "1210013407",
+            "link_order": 54,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 12.06
+          },
+          {
+            "LINK_ID": "1210012401",
+            "link_order": 55,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 121.74
+          },
+          {
+            "LINK_ID": "1210012404",
+            "link_order": 56,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 135.28
+          },
+          {
+            "LINK_ID": "1210012407",
+            "link_order": 57,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 174.35
+          },
+          {
+            "LINK_ID": "1210012406",
+            "link_order": 58,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 62.21
+          },
+          {
+            "LINK_ID": "1210012405",
+            "link_order": 59,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 65.93
+          },
+          {
+            "LINK_ID": "1210012403",
+            "link_order": 60,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 67.43
+          },
+          {
+            "LINK_ID": "1210012402",
+            "link_order": 61,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 12.2
+          },
+          {
+            "LINK_ID": "1210011001",
+            "link_order": 62,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 237.14
+          },
+          {
+            "LINK_ID": "1210011003",
+            "link_order": 63,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 12.0
+          },
+          {
+            "LINK_ID": "1210011002",
+            "link_order": 64,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 37.79
+          },
+          {
+            "LINK_ID": "1210011005",
+            "link_order": 65,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 230.75
+          },
+          {
+            "LINK_ID": "1210011004",
+            "link_order": 66,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 12.01
+          },
+          {
+            "LINK_ID": "1210009903",
+            "link_order": 67,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 122.68
+          },
+          {
+            "LINK_ID": "1210009909",
+            "link_order": 68,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 301.64
+          },
+          {
+            "LINK_ID": "1210009918",
+            "link_order": 69,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 301.64
+          },
+          {
+            "LINK_ID": "1210009913",
+            "link_order": 70,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 114.04
+          },
+          {
+            "LINK_ID": "1210009904",
+            "link_order": 71,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 12.14
+          },
+          {
+            "LINK_ID": "1210009902",
+            "link_order": 72,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 143.84
+          },
+          {
+            "LINK_ID": "1210009906",
+            "link_order": 73,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 144.24
+          },
+          {
+            "LINK_ID": "1210009910",
+            "link_order": 74,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 95.95
+          },
+          {
+            "LINK_ID": "1210009908",
+            "link_order": 75,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 114.21
+          },
+          {
+            "LINK_ID": "1210009915",
+            "link_order": 76,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 115.44
+          },
+          {
+            "LINK_ID": "1210009905",
+            "link_order": 77,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 12.01
+          },
+          {
+            "LINK_ID": "1210178200",
+            "link_order": 78,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 325.35
+          },
+          {
+            "LINK_ID": "1210178201",
+            "link_order": 79,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 325.33
+          }
+        ]
+      }
+    },
+    "OD_000004_B": {
+      "candidate_id": "B",
+      "route_label": "minimum_time",
+      "search_option": "2",
+      "source": "tmap",
+      "tmap_eta_sec": 1311.0,
+      "tmap_eta_min": 21.9,
+      "mapping": {
+        "mapping_status": "mapped",
+        "mapping_quality": "review",
+        "mapping_method": "topology_route_corridor_v2",
+        "search_mode": "strict",
+        "coverage_percent": 87.64,
+        "connectivity_percent": 100.0,
+        "length_ratio": 0.9281,
+        "matched_link_count": 42,
+        "broken_connections": 0,
+        "tmap_route_distance_m": 18370.0,
+        "tmap_geometry_length_m": 18369.49,
+        "matched_geometry_length_m": 17049.52,
+        "mapped_link_length_sum_m": 17049.5,
+        "geometry_length_delta_m": 1319.97,
+        "residual_distance_m": 2270.47,
+        "residual_distance_method": "coverage_estimate",
+        "recovery_used": false,
+        "virtual_bridge_count": 0,
+        "virtual_bridge_total_length_m": null,
+        "virtual_bridges": [],
+        "has_duplicate_link_ids": false,
+        "duplicate_link_id_count": 0,
+        "duplicate_occurrences": {}
+      },
+      "seongnam": {
+        "status": "classified",
+        "total_link_count": 42,
+        "inside_link_count": 16,
+        "boundary_crossing_link_count": 0,
+        "outside_link_count": 26,
+        "seongnam_intersecting_link_count": 16,
+        "seongnam_distance_m": 6061.13,
+        "outside_distance_m": 10988.39,
+        "total_classified_distance_m": 17049.52,
+        "seongnam_distance_ratio_percent": 35.55,
+        "link_classification": [
+          {
+            "LINK_ID": "2060194803",
+            "link_order": 0,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 12.05,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2060194802",
+            "link_order": 1,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 224.15,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2060181600",
+            "link_order": 2,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 399.36,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2060181601",
+            "link_order": 3,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 5.68,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2060185300",
+            "link_order": 4,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 232.57,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2060200900",
+            "link_order": 5,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 150.94,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2060274800",
+            "link_order": 6,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 130.76,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2060272900",
+            "link_order": 7,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 858.04,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2040389500",
+            "link_order": 8,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 600.86,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2040389501",
+            "link_order": 9,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 600.86,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2040388700",
+            "link_order": 10,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 514.94,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2040388701",
+            "link_order": 11,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 514.94,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2040412000",
+            "link_order": 12,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 907.98,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2040412002",
+            "link_order": 13,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 614.4,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2040412004",
+            "link_order": 14,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 53.91,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "2040412003",
+            "link_order": 15,
+            "inside_seongnam": true,
+            "seongnam_position": "inside",
+            "seongnam_overlap_m": 239.67,
+            "outside_length_m": 0.0
+          },
+          {
+            "LINK_ID": "1210177500",
+            "link_order": 16,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 612.06
+          },
+          {
+            "LINK_ID": "1210177501",
+            "link_order": 17,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 610.9
+          },
+          {
+            "LINK_ID": "1210000711",
+            "link_order": 18,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 689.19
+          },
+          {
+            "LINK_ID": "1210000722",
+            "link_order": 19,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 689.19
+          },
+          {
+            "LINK_ID": "1210000723",
+            "link_order": 20,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 689.19
+          },
+          {
+            "LINK_ID": "1210000721",
+            "link_order": 21,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 808.13
+          },
+          {
+            "LINK_ID": "1210000702",
+            "link_order": 22,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 128.11
+          },
+          {
+            "LINK_ID": "1210002001",
+            "link_order": 23,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 226.57
+          },
+          {
+            "LINK_ID": "1210002002",
+            "link_order": 24,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 15.03
+          },
+          {
+            "LINK_ID": "1210002005",
+            "link_order": 25,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 66.41
+          },
+          {
+            "LINK_ID": "1210002004",
+            "link_order": 26,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 35.02
+          },
+          {
+            "LINK_ID": "1210002300",
+            "link_order": 27,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 287.03
+          },
+          {
+            "LINK_ID": "1210181101",
+            "link_order": 28,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 839.7
+          },
+          {
+            "LINK_ID": "1210072600",
+            "link_order": 29,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 952.42
+          },
+          {
+            "LINK_ID": "1210072400",
+            "link_order": 30,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 492.23
+          },
+          {
+            "LINK_ID": "1210072200",
+            "link_order": 31,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 908.47
+          },
+          {
+            "LINK_ID": "1210072201",
+            "link_order": 32,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 908.47
+          },
+          {
+            "LINK_ID": "1210072202",
+            "link_order": 33,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 908.47
+          },
+          {
+            "LINK_ID": "1210071600",
+            "link_order": 34,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 446.22
+          },
+          {
+            "LINK_ID": "1210008111",
+            "link_order": 35,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 274.76
+          },
+          {
+            "LINK_ID": "1210008136",
+            "link_order": 36,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 272.54
+          },
+          {
+            "LINK_ID": "1210008133",
+            "link_order": 37,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 10.59
+          },
+          {
+            "LINK_ID": "1210008103",
+            "link_order": 38,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 57.43
+          },
+          {
+            "LINK_ID": "1210008132",
+            "link_order": 39,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 24.2
+          },
+          {
+            "LINK_ID": "1210010905",
+            "link_order": 40,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 12.02
+          },
+          {
+            "LINK_ID": "1210013208",
+            "link_order": 41,
+            "inside_seongnam": false,
+            "seongnam_position": "outside",
+            "seongnam_overlap_m": 0.0,
+            "outside_length_m": 24.04
+          }
+        ]
+      }
+    }
+  },
+  "excluded_routes": [
+    {
+      "route_id": "OD_000004_C",
+      "candidate_id": "C",
+      "mapping_status": "failed",
+      "mapping_quality": "failed",
+      "search_mode": null,
+      "error": "Recovery 경로를 찾았지만 품질 기준을 통과하지 못했습니다. connectivity=98.21%, broken=1, coverage=46.85%, length_ratio=0.939, virtual_bridges=1",
+      "reason": "mapping_quality_not_usable"
+    }
+  ],
+  "summary": {
+    "input_route_count": 3,
+    "usable_route_count": 2,
+    "excluded_route_count": 1,
+    "usable_route_ids": [
+      "OD_000004_A",
+      "OD_000004_B"
+    ],
+    "excluded_route_ids": [
+      "OD_000004_C"
+    ]
+  }
+}

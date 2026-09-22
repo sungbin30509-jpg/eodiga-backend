@@ -1,0 +1,28 @@
+{
+  "total_departure_candidate_rows": 127000,
+  "available_departure_candidate_rows": 13175,
+  "waiting_departure_candidate_rows": 113825,
+  "available_user_count": 1055,
+  "waiting_user_count": 8945,
+  "available_od_count": 38,
+  "waiting_od_count": 562,
+  "available_route_candidate_count": 109,
+  "evaluation_row_count": 37709,
+  "min_routes_per_od": 1,
+  "max_routes_per_od": 3,
+  "average_routes_per_od": 2.868,
+  "route_quality_distribution": {
+    "good": 81,
+    "recovered": 18,
+    "review": 10
+  },
+  "excluded_quality_route_count": 2,
+  "excluded_failed_route_count": 3,
+  "allowed_mapping_qualities": [
+    "good",
+    "recovered",
+    "review"
+  ],
+  "route_catalog_file": "C:\\Users\\문성빈\\OneDrive\\바탕 화면\\flow\\FLOWMATE\\data\\generated\\available_od_routes.csv",
+  "evaluation_plan_file": "C:\\Users\\문성빈\\OneDrive\\바탕 화면\\flow\\FLOWMATE\\data\\generated\\evaluation_plan.csv"
+}

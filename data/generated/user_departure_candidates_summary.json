@@ -1,0 +1,17 @@
+{
+  "user_count": 10000,
+  "candidate_row_count": 127000,
+  "time_step_minutes": 5,
+  "original_time_candidate_count": 10000,
+  "min_candidates_per_user": 1,
+  "max_candidates_per_user": 25,
+  "average_candidates_per_user": 12.7,
+  "adjustable_minutes_distribution": {
+    "0": 1000,
+    "15": 2500,
+    "30": 3500,
+    "45": 2000,
+    "60": 1000
+  },
+  "output_file": "C:\\Users\\문성빈\\OneDrive\\바탕 화면\\flow\\FLOWMATE\\data\\generated\\user_departure_candidates.csv"
+}

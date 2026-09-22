@@ -1,0 +1,56 @@
+location_id,name,location_type,region
+ORG_001,LIG넥스원 판교하우스,company,seongnam
+ORG_002,넥슨코리아,company,seongnam
+ORG_003,엔씨소프트 판교 R&D센터,company,seongnam
+ORG_004,안랩,company,seongnam
+ORG_005,NHN Play Museum,company,seongnam
+ORG_006,네오위즈 판교타워,company,seongnam
+ORG_007,위메이드 판교 사옥,company,seongnam
+ORG_008,카카오게임즈,company,seongnam
+ORG_009,스마일게이트,company,seongnam
+ORG_010,웹젠,company,seongnam
+ORG_011,유라코퍼레이션,company,seongnam
+ORG_012,한국파스퇴르연구소,research_institute,seongnam
+ORG_013,차바이오컴플렉스,research_facility,seongnam
+ORG_014,경기창조경제혁신센터,office_building,seongnam
+ORG_015,유스페이스1,office_building,seongnam
+HOME_001,성남판교백현마을2단지,seongnam_apartment,seongnam
+HOME_002,판교푸르지오그랑블,seongnam_apartment,seongnam
+HOME_003,봇들마을3단지아파트,seongnam_apartment,seongnam
+HOME_004,봇들마을4단지,seongnam_apartment,seongnam
+HOME_005,봇들마을7단지,seongnam_apartment,seongnam
+HOME_006,백현마을5단지(주공),seongnam_apartment,seongnam
+HOME_007,판교원마을7단지,seongnam_apartment,seongnam
+HOME_008,판교봇들마을9단지금호어울림아파트,seongnam_apartment,seongnam
+HOME_009,판교백현마을7단지,seongnam_apartment,seongnam
+HOME_010,판교백현마을8단지,seongnam_apartment,seongnam
+HOME_011,봇들마을휴먼시아8단지,seongnam_apartment,seongnam
+HOME_012,산운12단지 판교센트럴포레,seongnam_apartment,seongnam
+HOME_013,산운마을11단지판교포레라움아파트,seongnam_apartment,seongnam
+HOME_014,산운마을13단지,seongnam_apartment,seongnam
+HOME_015,산운마을14단지경남아너스빌아파트,seongnam_apartment,seongnam
+HOME_016,산운마을6단지신동아파밀리에,seongnam_apartment,seongnam
+HOME_017,파크타운아파트,seongnam_apartment,seongnam
+HOME_018,판교 알파리움1단지,seongnam_apartment,seongnam
+HOME_019,판교알파리움2단지,seongnam_apartment,seongnam
+HOME_020,판교대방노블랜드,seongnam_apartment,seongnam
+HOME_021,성남 센트럴타운,seongnam_apartment,seongnam
+HOME_022,성남단대푸르지오,seongnam_apartment,seongnam
+HOME_023,성남동어울림아파트,seongnam_apartment,seongnam
+HOME_024,성남두산,seongnam_apartment,seongnam
+HOME_025,산성역 포레스티아 아파트,seongnam_apartment,seongnam
+HOME_026,신흥역 하늘채 랜더스원 3단지,seongnam_apartment,seongnam
+HOME_027,신흥역 하늘채 랜더스원 4단지,seongnam_apartment,seongnam
+EXT_001,강남역,external_hub,seoul
+EXT_002,잠실역,external_hub,seoul
+EXT_003,수서역,external_hub,seoul
+EXT_004,삼성역,external_hub,seoul
+EXT_005,선릉역,external_hub,seoul
+EXT_006,교대역,external_hub,seoul
+EXT_007,사당역,external_hub,seoul
+EXT_008,광교중앙역,external_hub,suwon
+EXT_009,수원역,external_hub,suwon
+EXT_010,죽전역,external_hub,yongin
+EXT_011,기흥역,external_hub,yongin
+EXT_012,경기광주역,external_hub,gwangju
+EXT_013,미사역,external_hub,hanam

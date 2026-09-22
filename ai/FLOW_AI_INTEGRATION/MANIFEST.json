@@ -1,0 +1,128 @@
+{
+ "package": "FLOW_AI_INTEGRATION",
+ "model_version": "integration_demo_01",
+ "model_role": "integration_demo_not_final",
+ "total_bytes": 6868133,
+ "files": {
+  ".env.example": {
+   "sha256": "a231c87345634f2f13ce1eff23cb3bfbc04ea28dda635d4f6fca1ba0a7a889ea",
+   "bytes": 112
+  },
+  "artifact/bundle.json": {
+   "sha256": "c0163c33c186cf475d036e0cd65bbac20d98f222c776f518450fab0f003b1211",
+   "bytes": 12428
+  },
+  "artifact/calendar.parquet": {
+   "sha256": "776435d1c28a3ac14d18236103e42180c6ba82653ed15b60c5b548b921bc1704",
+   "bytes": 5628
+  },
+  "artifact/model/global.txt": {
+   "sha256": "390a051aebd811a481db7561c75750f9561b98c4b94a52659be4eacb55dc8809",
+   "bytes": 5757886
+  },
+  "artifact/model/model_index.json": {
+   "sha256": "e344eb9456b3d472d3143258b9f90cd24dac0e7ece53294f088f55f1bb9dfcf8",
+   "bytes": 7848
+  },
+  "artifact/profile.json": {
+   "sha256": "36683f35dc1b8c93b6950552ef603e3bea77d83dd07714b07925d5febc9d81fd",
+   "bytes": 2524
+  },
+  "artifact/profile.parquet": {
+   "sha256": "d3443f169bc22d0bb392a037cd6c56cab4238986b69be191985aabb7edcbd136",
+   "bytes": 597099
+  },
+  "artifact/profile_fallback.parquet": {
+   "sha256": "8dca74f712c5d1507a22c05c5d32cdefb91a26e6ddfcbbf2d88049aa2f2d374c",
+   "bytes": 5784
+  },
+  "context/asos_hourly_tail_2026-08-25_to_09-01.parquet": {
+   "sha256": "cf0112233fd4d55e4944d9c8ce533b3fc4e5a5e15902124f2f187fe6ed0b7721",
+   "bytes": 9646
+  },
+  "context/calendar_2026-03-01_to_09-30.parquet": {
+   "sha256": "776435d1c28a3ac14d18236103e42180c6ba82653ed15b60c5b548b921bc1704",
+   "bytes": 5628
+  },
+  "context/gits_snapshot_2026-09-10_2042KST.parquet": {
+   "sha256": "09cb508e42054361ae985f92aba818f3cfa890cf4eacd6b9be3b51cfdbb82fea",
+   "bytes": 116893
+  },
+  "context/its_history_tail_2026-08-28_to_08-31.parquet": {
+   "sha256": "3a4013430fd5b774c7afa6ed2982a51af7f4ad2e2d6127e599f3b7b08f2605db",
+   "bytes": 190738
+  },
+  "flow_context.py": {
+   "sha256": "f27feda30f9824b5c54e3f03c371c3ac1e0e7cecccfba049ca60fabc39bb3ef6",
+   "bytes": 7399
+  },
+  "flow_traffic/__init__.py": {
+   "sha256": "8748e57b7c8164d11cf0cfc712e0c45b9d555ac3e988086b3d8a7b603270bd9d",
+   "bytes": 80
+  },
+  "flow_traffic/config.py": {
+   "sha256": "2d908af48d1d0dc8024beaf27a17845f804aa39c36328adca452aa1278c16eb9",
+   "bytes": 5072
+  },
+  "flow_traffic/features.py": {
+   "sha256": "5d04b516a1708e3c004e0ccb0ed9e883288b913aa8b741cb8cac44e98a876068",
+   "bytes": 7867
+  },
+  "flow_traffic/inference.py": {
+   "sha256": "bd8358604909f474ee73aed4aa56263ce974a619e4d6e422e32be1832c06facd",
+   "bytes": 5844
+  },
+  "flow_traffic/io.py": {
+   "sha256": "8b4ef36e408ca6f6c4299a9917a9fbca465a2ced49058da24ac1eafd214fc3a5",
+   "bytes": 2321
+  },
+  "flow_traffic/lead_sampling.py": {
+   "sha256": "69773d4d95c86fed41626d26da846e67e1a79f524174f46bf3682ae69b0974ed",
+   "bytes": 4704
+  },
+  "flow_traffic/models.py": {
+   "sha256": "0063a71d236a3df62dcd313b497342140bc7ce1f135b55e20a0f7eb75c7359d2",
+   "bytes": 3624
+  },
+  "flow_traffic/profile.py": {
+   "sha256": "57c3384945cf1683c3066b7120f739ca14e771e631e500f211e5cb3804894c61",
+   "bytes": 2314
+  },
+  "integration_example.py": {
+   "sha256": "24b55605b91263f105466e8650259f7682410b6292343bb3ae387e16e624a533",
+   "bytes": 5456
+  },
+  "make_manifest.py": {
+   "sha256": "dee60a0d818c1a84108d60bdbbc729171db6b0baf2713108972bfcb81784a0fc",
+   "bytes": 1418
+  },
+  "README_INTEGRATION.md": {
+   "sha256": "482e537ad8cf7ec2517c5bd6efbf4ee4737e06d85d78bc427f98858d299ff5b0",
+   "bytes": 11023
+  },
+  "requirements.txt": {
+   "sha256": "1cc89ec5807fa3753c7a36d5ca93fd7cecf74128e358b2927933585397d8e5d5",
+   "bytes": 164
+  },
+  "src/__init__.py": {
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  "src/collectors/__init__.py": {
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  "src/collectors/gits.py": {
+   "sha256": "3995344424e43ac7294c7389a49eed2b1447d345969309477160d6ffadeefe40",
+   "bytes": 23197
+  },
+  "src/config.py": {
+   "sha256": "8c8a6ebd873f0085ef776dbe5c3482d7cc3fb9eebbb816fc5a56379a2f3bbdfb",
+   "bytes": 3947
+  },
+  "supported_links.csv": {
+   "sha256": "ba50500c5d5a27c39b906d46126d16fb1a680db9dcf4fffb1db2a4f1c3b72cbe",
+   "bytes": 71489
+  }
+ }
+}

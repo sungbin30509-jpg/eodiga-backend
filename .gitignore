@@ -1,0 +1,105 @@
+﻿# ==========================================
+# Secrets
+# ==========================================
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# 예시 환경변수 파일은 GitHub에 포함
+!.env.example
+
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.venv/
+venv/
+env/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# IDE / OS
+# ==========================================
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Logs / temporary
+# ==========================================
+*.log
+*.tmp
+*.temp
+
+# ==========================================
+# Build / cache
+# ==========================================
+build/
+dist/
+*.egg-info/
+
+# ==========================================
+# Large runtime data - downloaded on deploy
+# ==========================================
+data/national_links/
+
+# ==========================================
+# Preprocessing-only GIS boundary data
+# ==========================================
+data/boundaries/
+
+# ==========================================
+# Large runtime dataset - downloaded on deploy
+# ==========================================
+data/routes/od_pipeline/
+
+# ==========================================
+# Development / verification outputs
+# ==========================================
+data/ai_nodelink_compare_all600/
+data/nodelink_version_bridge/
+
+# ==========================================
+# Runtime generated cache
+# ==========================================
+cache/
+
+# ==========================================
+# Development / handoff data
+# ==========================================
+_ai_nodelink_compare_input/
+data/team_share/
+
+# ==========================================
+# Runtime generated outputs
+# ==========================================
+data/routes/dynamic_pipeline/
+
+# ==========================================
+# Local archives
+# ==========================================
+*.zip
+
+# ==========================================
+# Legacy/static route outputs
+# ==========================================
+data/routes/pipeline/
+
+# ==========================================
+# Backup files
+# ==========================================
+*.bak
+
+# Timestamped backup files
+*.bak_*

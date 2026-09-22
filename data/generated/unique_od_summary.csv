@@ -1,0 +1,601 @@
+﻿od_id,origin_location_id,origin_name,destination_location_id,destination_name,destination_region,user_count
+OD_000001,ORG_008,카카오게임즈,EXT_012,경기광주역,gwangju,36
+OD_000002,ORG_007,위메이드 판교 사옥,EXT_013,미사역,hanam,33
+OD_000003,ORG_007,위메이드 판교 사옥,EXT_006,교대역,seoul,32
+OD_000004,ORG_014,경기창조경제혁신센터,EXT_007,사당역,seoul,32
+OD_000005,ORG_013,차바이오컴플렉스,EXT_001,강남역,seoul,31
+OD_000006,ORG_015,유스페이스1,EXT_011,기흥역,yongin,31
+OD_000007,ORG_008,카카오게임즈,EXT_005,선릉역,seoul,30
+OD_000008,ORG_008,카카오게임즈,EXT_009,수원역,suwon,30
+OD_000009,ORG_008,카카오게임즈,EXT_013,미사역,hanam,29
+OD_000010,ORG_012,한국파스퇴르연구소,EXT_013,미사역,hanam,29
+OD_000011,ORG_015,유스페이스1,EXT_004,삼성역,seoul,29
+OD_000012,ORG_015,유스페이스1,EXT_005,선릉역,seoul,29
+OD_000013,ORG_002,넥슨코리아,EXT_011,기흥역,yongin,28
+OD_000014,ORG_006,네오위즈 판교타워,EXT_012,경기광주역,gwangju,28
+OD_000015,ORG_010,웹젠,EXT_004,삼성역,seoul,28
+OD_000016,ORG_001,LIG넥스원 판교하우스,EXT_011,기흥역,yongin,27
+OD_000017,ORG_008,카카오게임즈,EXT_011,기흥역,yongin,27
+OD_000018,ORG_009,스마일게이트,EXT_011,기흥역,yongin,27
+OD_000019,ORG_012,한국파스퇴르연구소,EXT_008,광교중앙역,suwon,27
+OD_000020,ORG_014,경기창조경제혁신센터,EXT_012,경기광주역,gwangju,27
+OD_000021,ORG_015,유스페이스1,EXT_006,교대역,seoul,27
+OD_000022,ORG_001,LIG넥스원 판교하우스,EXT_009,수원역,suwon,26
+OD_000023,ORG_002,넥슨코리아,EXT_007,사당역,seoul,26
+OD_000024,ORG_003,엔씨소프트 판교 R&D센터,HOME_026,신흥역 하늘채 랜더스원 3단지,seongnam,26
+OD_000025,ORG_005,NHN Play Museum,EXT_001,강남역,seoul,26
+OD_000026,ORG_006,네오위즈 판교타워,EXT_001,강남역,seoul,26
+OD_000027,ORG_006,네오위즈 판교타워,EXT_007,사당역,seoul,26
+OD_000028,ORG_006,네오위즈 판교타워,EXT_011,기흥역,yongin,26
+OD_000029,ORG_009,스마일게이트,EXT_001,강남역,seoul,26
+OD_000030,ORG_011,유라코퍼레이션,EXT_009,수원역,suwon,26
+OD_000031,ORG_011,유라코퍼레이션,HOME_019,판교알파리움2단지,seongnam,26
+OD_000032,ORG_012,한국파스퇴르연구소,EXT_010,죽전역,yongin,26
+OD_000033,ORG_013,차바이오컴플렉스,EXT_012,경기광주역,gwangju,26
+OD_000034,ORG_014,경기창조경제혁신센터,EXT_009,수원역,suwon,26
+OD_000035,ORG_001,LIG넥스원 판교하우스,EXT_008,광교중앙역,suwon,25
+OD_000036,ORG_003,엔씨소프트 판교 R&D센터,HOME_009,판교백현마을7단지,seongnam,25
+OD_000037,ORG_004,안랩,EXT_004,삼성역,seoul,25
+OD_000038,ORG_004,안랩,EXT_013,미사역,hanam,25
+OD_000039,ORG_005,NHN Play Museum,EXT_002,잠실역,seoul,25
+OD_000040,ORG_007,위메이드 판교 사옥,EXT_007,사당역,seoul,25
+OD_000041,ORG_008,카카오게임즈,HOME_021,성남 센트럴타운,seongnam,25
+OD_000042,ORG_010,웹젠,EXT_002,잠실역,seoul,25
+OD_000043,ORG_010,웹젠,HOME_007,판교원마을7단지,seongnam,25
+OD_000044,ORG_010,웹젠,HOME_012,산운12단지 판교센트럴포레,seongnam,25
+OD_000045,ORG_011,유라코퍼레이션,EXT_005,선릉역,seoul,25
+OD_000046,ORG_015,유스페이스1,EXT_009,수원역,suwon,25
+OD_000047,ORG_015,유스페이스1,HOME_024,성남두산,seongnam,25
+OD_000048,ORG_004,안랩,EXT_005,선릉역,seoul,24
+OD_000049,ORG_005,NHN Play Museum,EXT_008,광교중앙역,suwon,24
+OD_000050,ORG_005,NHN Play Museum,HOME_015,산운마을14단지경남아너스빌아파트,seongnam,24
+OD_000051,ORG_005,NHN Play Museum,HOME_024,성남두산,seongnam,24
+OD_000052,ORG_007,위메이드 판교 사옥,EXT_001,강남역,seoul,24
+OD_000053,ORG_007,위메이드 판교 사옥,EXT_008,광교중앙역,suwon,24
+OD_000054,ORG_007,위메이드 판교 사옥,EXT_012,경기광주역,gwangju,24
+OD_000055,ORG_010,웹젠,HOME_021,성남 센트럴타운,seongnam,24
+OD_000056,ORG_011,유라코퍼레이션,HOME_003,봇들마을3단지아파트,seongnam,24
+OD_000057,ORG_013,차바이오컴플렉스,EXT_007,사당역,seoul,24
+OD_000058,ORG_013,차바이오컴플렉스,EXT_011,기흥역,yongin,24
+OD_000059,ORG_001,LIG넥스원 판교하우스,EXT_005,선릉역,seoul,23
+OD_000060,ORG_002,넥슨코리아,EXT_003,수서역,seoul,23
+OD_000061,ORG_003,엔씨소프트 판교 R&D센터,EXT_004,삼성역,seoul,23
+OD_000062,ORG_003,엔씨소프트 판교 R&D센터,EXT_007,사당역,seoul,23
+OD_000063,ORG_003,엔씨소프트 판교 R&D센터,HOME_008,판교봇들마을9단지금호어울림아파트,seongnam,23
+OD_000064,ORG_004,안랩,EXT_012,경기광주역,gwangju,23
+OD_000065,ORG_007,위메이드 판교 사옥,EXT_011,기흥역,yongin,23
+OD_000066,ORG_007,위메이드 판교 사옥,HOME_009,판교백현마을7단지,seongnam,23
+OD_000067,ORG_008,카카오게임즈,EXT_008,광교중앙역,suwon,23
+OD_000068,ORG_009,스마일게이트,EXT_013,미사역,hanam,23
+OD_000069,ORG_010,웹젠,EXT_005,선릉역,seoul,23
+OD_000070,ORG_010,웹젠,EXT_010,죽전역,yongin,23
+OD_000071,ORG_011,유라코퍼레이션,EXT_012,경기광주역,gwangju,23
+OD_000072,ORG_012,한국파스퇴르연구소,HOME_016,산운마을6단지신동아파밀리에,seongnam,23
+OD_000073,ORG_014,경기창조경제혁신센터,EXT_008,광교중앙역,suwon,23
+OD_000074,ORG_014,경기창조경제혁신센터,EXT_011,기흥역,yongin,23
+OD_000075,ORG_015,유스페이스1,EXT_002,잠실역,seoul,23
+OD_000076,ORG_001,LIG넥스원 판교하우스,EXT_013,미사역,hanam,22
+OD_000077,ORG_001,LIG넥스원 판교하우스,HOME_017,파크타운아파트,seongnam,22
+OD_000078,ORG_002,넥슨코리아,HOME_004,봇들마을4단지,seongnam,22
+OD_000079,ORG_003,엔씨소프트 판교 R&D센터,HOME_022,성남단대푸르지오,seongnam,22
+OD_000080,ORG_004,안랩,EXT_007,사당역,seoul,22
+OD_000081,ORG_004,안랩,HOME_003,봇들마을3단지아파트,seongnam,22
+OD_000082,ORG_005,NHN Play Museum,EXT_003,수서역,seoul,22
+OD_000083,ORG_005,NHN Play Museum,EXT_013,미사역,hanam,22
+OD_000084,ORG_006,네오위즈 판교타워,EXT_002,잠실역,seoul,22
+OD_000085,ORG_006,네오위즈 판교타워,EXT_013,미사역,hanam,22
+OD_000086,ORG_008,카카오게임즈,HOME_013,산운마을11단지판교포레라움아파트,seongnam,22
+OD_000087,ORG_010,웹젠,EXT_006,교대역,seoul,22
+OD_000088,ORG_011,유라코퍼레이션,EXT_013,미사역,hanam,22
+OD_000089,ORG_012,한국파스퇴르연구소,EXT_001,강남역,seoul,22
+OD_000090,ORG_012,한국파스퇴르연구소,EXT_003,수서역,seoul,22
+OD_000091,ORG_012,한국파스퇴르연구소,HOME_008,판교봇들마을9단지금호어울림아파트,seongnam,22
+OD_000092,ORG_013,차바이오컴플렉스,EXT_006,교대역,seoul,22
+OD_000093,ORG_013,차바이오컴플렉스,HOME_025,산성역 포레스티아 아파트,seongnam,22
+OD_000094,ORG_014,경기창조경제혁신센터,EXT_002,잠실역,seoul,22
+OD_000095,ORG_014,경기창조경제혁신센터,EXT_004,삼성역,seoul,22
+OD_000096,ORG_015,유스페이스1,EXT_003,수서역,seoul,22
+OD_000097,ORG_001,LIG넥스원 판교하우스,HOME_016,산운마을6단지신동아파밀리에,seongnam,21
+OD_000098,ORG_003,엔씨소프트 판교 R&D센터,EXT_001,강남역,seoul,21
+OD_000099,ORG_003,엔씨소프트 판교 R&D센터,EXT_012,경기광주역,gwangju,21
+OD_000100,ORG_005,NHN Play Museum,EXT_004,삼성역,seoul,21
+OD_000101,ORG_005,NHN Play Museum,EXT_007,사당역,seoul,21
+OD_000102,ORG_005,NHN Play Museum,EXT_011,기흥역,yongin,21
+OD_000103,ORG_006,네오위즈 판교타워,EXT_010,죽전역,yongin,21
+OD_000104,ORG_006,네오위즈 판교타워,HOME_006,백현마을5단지(주공),seongnam,21
+OD_000105,ORG_007,위메이드 판교 사옥,EXT_003,수서역,seoul,21
+OD_000106,ORG_008,카카오게임즈,EXT_010,죽전역,yongin,21
+OD_000107,ORG_009,스마일게이트,EXT_002,잠실역,seoul,21
+OD_000108,ORG_009,스마일게이트,EXT_006,교대역,seoul,21
+OD_000109,ORG_010,웹젠,EXT_001,강남역,seoul,21
+OD_000110,ORG_010,웹젠,HOME_026,신흥역 하늘채 랜더스원 3단지,seongnam,21
+OD_000111,ORG_011,유라코퍼레이션,HOME_018,판교 알파리움1단지,seongnam,21
+OD_000112,ORG_012,한국파스퇴르연구소,EXT_009,수원역,suwon,21
+OD_000113,ORG_014,경기창조경제혁신센터,HOME_023,성남동어울림아파트,seongnam,21
+OD_000114,ORG_015,유스페이스1,EXT_012,경기광주역,gwangju,21
+OD_000115,ORG_015,유스페이스1,HOME_002,판교푸르지오그랑블,seongnam,21
+OD_000116,ORG_015,유스페이스1,HOME_009,판교백현마을7단지,seongnam,21
+OD_000117,ORG_001,LIG넥스원 판교하우스,EXT_001,강남역,seoul,20
+OD_000118,ORG_002,넥슨코리아,EXT_005,선릉역,seoul,20
+OD_000119,ORG_002,넥슨코리아,EXT_013,미사역,hanam,20
+OD_000120,ORG_003,엔씨소프트 판교 R&D센터,EXT_009,수원역,suwon,20
+OD_000121,ORG_004,안랩,EXT_001,강남역,seoul,20
+OD_000122,ORG_004,안랩,EXT_008,광교중앙역,suwon,20
+OD_000123,ORG_005,NHN Play Museum,EXT_005,선릉역,seoul,20
+OD_000124,ORG_005,NHN Play Museum,EXT_010,죽전역,yongin,20
+OD_000125,ORG_005,NHN Play Museum,HOME_012,산운12단지 판교센트럴포레,seongnam,20
+OD_000126,ORG_005,NHN Play Museum,HOME_014,산운마을13단지,seongnam,20
+OD_000127,ORG_006,네오위즈 판교타워,EXT_003,수서역,seoul,20
+OD_000128,ORG_006,네오위즈 판교타워,EXT_006,교대역,seoul,20
+OD_000129,ORG_006,네오위즈 판교타워,HOME_021,성남 센트럴타운,seongnam,20
+OD_000130,ORG_007,위메이드 판교 사옥,HOME_016,산운마을6단지신동아파밀리에,seongnam,20
+OD_000131,ORG_008,카카오게임즈,EXT_001,강남역,seoul,20
+OD_000132,ORG_008,카카오게임즈,HOME_008,판교봇들마을9단지금호어울림아파트,seongnam,20
+OD_000133,ORG_009,스마일게이트,HOME_016,산운마을6단지신동아파밀리에,seongnam,20
+OD_000134,ORG_010,웹젠,HOME_022,성남단대푸르지오,seongnam,20
+OD_000135,ORG_011,유라코퍼레이션,EXT_010,죽전역,yongin,20
+OD_000136,ORG_012,한국파스퇴르연구소,EXT_011,기흥역,yongin,20
+OD_000137,ORG_013,차바이오컴플렉스,EXT_004,삼성역,seoul,20
+OD_000138,ORG_013,차바이오컴플렉스,EXT_005,선릉역,seoul,20
+OD_000139,ORG_013,차바이오컴플렉스,EXT_009,수원역,suwon,20
+OD_000140,ORG_013,차바이오컴플렉스,HOME_003,봇들마을3단지아파트,seongnam,20
+OD_000141,ORG_014,경기창조경제혁신센터,EXT_010,죽전역,yongin,20
+OD_000142,ORG_014,경기창조경제혁신센터,HOME_025,산성역 포레스티아 아파트,seongnam,20
+OD_000143,ORG_014,경기창조경제혁신센터,HOME_026,신흥역 하늘채 랜더스원 3단지,seongnam,20
+OD_000144,ORG_015,유스페이스1,EXT_001,강남역,seoul,20
+OD_000145,ORG_015,유스페이스1,HOME_017,파크타운아파트,seongnam,20
+OD_000146,ORG_015,유스페이스1,HOME_025,산성역 포레스티아 아파트,seongnam,20
+OD_000147,ORG_001,LIG넥스원 판교하우스,EXT_007,사당역,seoul,19
+OD_000148,ORG_001,LIG넥스원 판교하우스,HOME_010,판교백현마을8단지,seongnam,19
+OD_000149,ORG_001,LIG넥스원 판교하우스,HOME_011,봇들마을휴먼시아8단지,seongnam,19
+OD_000150,ORG_001,LIG넥스원 판교하우스,HOME_012,산운12단지 판교센트럴포레,seongnam,19
+OD_000151,ORG_001,LIG넥스원 판교하우스,HOME_022,성남단대푸르지오,seongnam,19
+OD_000152,ORG_002,넥슨코리아,EXT_004,삼성역,seoul,19
+OD_000153,ORG_003,엔씨소프트 판교 R&D센터,EXT_006,교대역,seoul,19
+OD_000154,ORG_003,엔씨소프트 판교 R&D센터,HOME_011,봇들마을휴먼시아8단지,seongnam,19
+OD_000155,ORG_003,엔씨소프트 판교 R&D센터,HOME_016,산운마을6단지신동아파밀리에,seongnam,19
+OD_000156,ORG_004,안랩,EXT_002,잠실역,seoul,19
+OD_000157,ORG_004,안랩,EXT_006,교대역,seoul,19
+OD_000158,ORG_004,안랩,HOME_002,판교푸르지오그랑블,seongnam,19
+OD_000159,ORG_004,안랩,HOME_023,성남동어울림아파트,seongnam,19
+OD_000160,ORG_005,NHN Play Museum,EXT_006,교대역,seoul,19
+OD_000161,ORG_005,NHN Play Museum,HOME_003,봇들마을3단지아파트,seongnam,19
+OD_000162,ORG_006,네오위즈 판교타워,EXT_005,선릉역,seoul,19
+OD_000163,ORG_006,네오위즈 판교타워,HOME_002,판교푸르지오그랑블,seongnam,19
+OD_000164,ORG_006,네오위즈 판교타워,HOME_003,봇들마을3단지아파트,seongnam,19
+OD_000165,ORG_006,네오위즈 판교타워,HOME_004,봇들마을4단지,seongnam,19
+OD_000166,ORG_006,네오위즈 판교타워,HOME_007,판교원마을7단지,seongnam,19
+OD_000167,ORG_006,네오위즈 판교타워,HOME_019,판교알파리움2단지,seongnam,19
+OD_000168,ORG_007,위메이드 판교 사옥,EXT_004,삼성역,seoul,19
+OD_000169,ORG_007,위메이드 판교 사옥,HOME_013,산운마을11단지판교포레라움아파트,seongnam,19
+OD_000170,ORG_008,카카오게임즈,EXT_004,삼성역,seoul,19
+OD_000171,ORG_008,카카오게임즈,EXT_006,교대역,seoul,19
+OD_000172,ORG_008,카카오게임즈,EXT_007,사당역,seoul,19
+OD_000173,ORG_008,카카오게임즈,HOME_001,성남판교백현마을2단지,seongnam,19
+OD_000174,ORG_008,카카오게임즈,HOME_002,판교푸르지오그랑블,seongnam,19
+OD_000175,ORG_008,카카오게임즈,HOME_003,봇들마을3단지아파트,seongnam,19
+OD_000176,ORG_008,카카오게임즈,HOME_015,산운마을14단지경남아너스빌아파트,seongnam,19
+OD_000177,ORG_009,스마일게이트,HOME_011,봇들마을휴먼시아8단지,seongnam,19
+OD_000178,ORG_010,웹젠,EXT_003,수서역,seoul,19
+OD_000179,ORG_010,웹젠,EXT_009,수원역,suwon,19
+OD_000180,ORG_010,웹젠,HOME_003,봇들마을3단지아파트,seongnam,19
+OD_000181,ORG_010,웹젠,HOME_016,산운마을6단지신동아파밀리에,seongnam,19
+OD_000182,ORG_010,웹젠,HOME_023,성남동어울림아파트,seongnam,19
+OD_000183,ORG_011,유라코퍼레이션,EXT_001,강남역,seoul,19
+OD_000184,ORG_011,유라코퍼레이션,EXT_007,사당역,seoul,19
+OD_000185,ORG_011,유라코퍼레이션,HOME_005,봇들마을7단지,seongnam,19
+OD_000186,ORG_011,유라코퍼레이션,HOME_009,판교백현마을7단지,seongnam,19
+OD_000187,ORG_012,한국파스퇴르연구소,EXT_006,교대역,seoul,19
+OD_000188,ORG_012,한국파스퇴르연구소,HOME_011,봇들마을휴먼시아8단지,seongnam,19
+OD_000189,ORG_014,경기창조경제혁신센터,HOME_001,성남판교백현마을2단지,seongnam,19
+OD_000190,ORG_015,유스페이스1,EXT_007,사당역,seoul,19
+OD_000191,ORG_015,유스페이스1,EXT_013,미사역,hanam,19
+OD_000192,ORG_015,유스페이스1,HOME_001,성남판교백현마을2단지,seongnam,19
+OD_000193,ORG_015,유스페이스1,HOME_008,판교봇들마을9단지금호어울림아파트,seongnam,19
+OD_000194,ORG_015,유스페이스1,HOME_023,성남동어울림아파트,seongnam,19
+OD_000195,ORG_001,LIG넥스원 판교하우스,EXT_012,경기광주역,gwangju,18
+OD_000196,ORG_001,LIG넥스원 판교하우스,HOME_019,판교알파리움2단지,seongnam,18
+OD_000197,ORG_001,LIG넥스원 판교하우스,HOME_021,성남 센트럴타운,seongnam,18
+OD_000198,ORG_002,넥슨코리아,EXT_006,교대역,seoul,18
+OD_000199,ORG_002,넥슨코리아,EXT_009,수원역,suwon,18
+OD_000200,ORG_002,넥슨코리아,HOME_005,봇들마을7단지,seongnam,18
+OD_000201,ORG_002,넥슨코리아,HOME_027,신흥역 하늘채 랜더스원 4단지,seongnam,18
+OD_000202,ORG_003,엔씨소프트 판교 R&D센터,EXT_002,잠실역,seoul,18
+OD_000203,ORG_003,엔씨소프트 판교 R&D센터,EXT_010,죽전역,yongin,18
+OD_000204,ORG_003,엔씨소프트 판교 R&D센터,HOME_007,판교원마을7단지,seongnam,18
+OD_000205,ORG_004,안랩,EXT_011,기흥역,yongin,18
+OD_000206,ORG_004,안랩,HOME_015,산운마을14단지경남아너스빌아파트,seongnam,18
+OD_000207,ORG_004,안랩,HOME_016,산운마을6단지신동아파밀리에,seongnam,18
+OD_000208,ORG_004,안랩,HOME_022,성남단대푸르지오,seongnam,18
+OD_000209,ORG_005,NHN Play Museum,HOME_006,백현마을5단지(주공),seongnam,18
+OD_000210,ORG_005,NHN Play Museum,HOME_027,신흥역 하늘채 랜더스원 4단지,seongnam,18
+OD_000211,ORG_006,네오위즈 판교타워,HOME_008,판교봇들마을9단지금호어울림아파트,seongnam,18
+OD_000212,ORG_006,네오위즈 판교타워,HOME_015,산운마을14단지경남아너스빌아파트,seongnam,18
+OD_000213,ORG_006,네오위즈 판교타워,HOME_026,신흥역 하늘채 랜더스원 3단지,seongnam,18
+OD_000214,ORG_007,위메이드 판교 사옥,EXT_010,죽전역,yongin,18
+OD_000215,ORG_007,위메이드 판교 사옥,HOME_017,파크타운아파트,seongnam,18
+OD_000216,ORG_007,위메이드 판교 사옥,HOME_024,성남두산,seongnam,18
+OD_000217,ORG_008,카카오게임즈,HOME_005,봇들마을7단지,seongnam,18
+OD_000218,ORG_008,카카오게임즈,HOME_007,판교원마을7단지,seongnam,18
+OD_000219,ORG_008,카카오게임즈,HOME_019,판교알파리움2단지,seongnam,18
+OD_000220,ORG_008,카카오게임즈,HOME_025,산성역 포레스티아 아파트,seongnam,18
+OD_000221,ORG_009,스마일게이트,EXT_003,수서역,seoul,18
+OD_000222,ORG_009,스마일게이트,EXT_004,삼성역,seoul,18
+OD_000223,ORG_009,스마일게이트,EXT_009,수원역,suwon,18
+OD_000224,ORG_009,스마일게이트,EXT_012,경기광주역,gwangju,18
+OD_000225,ORG_010,웹젠,EXT_013,미사역,hanam,18
+OD_000226,ORG_010,웹젠,HOME_004,봇들마을4단지,seongnam,18
+OD_000227,ORG_010,웹젠,HOME_014,산운마을13단지,seongnam,18
+OD_000228,ORG_010,웹젠,HOME_027,신흥역 하늘채 랜더스원 4단지,seongnam,18
+OD_000229,ORG_011,유라코퍼레이션,EXT_006,교대역,seoul,18
+OD_000230,ORG_011,유라코퍼레이션,EXT_011,기흥역,yongin,18
+OD_000231,ORG_012,한국파스퇴르연구소,EXT_005,선릉역,seoul,18
+OD_000232,ORG_012,한국파스퇴르연구소,HOME_026,신흥역 하늘채 랜더스원 3단지,seongnam,18
+OD_000233,ORG_013,차바이오컴플렉스,EXT_003,수서역,seoul,18
+OD_000234,ORG_013,차바이오컴플렉스,EXT_010,죽전역,yongin,18
+OD_000235,ORG_013,차바이오컴플렉스,HOME_001,성남판교백현마을2단지,seongnam,18
+OD_000236,ORG_013,차바이오컴플렉스,HOME_002,판교푸르지오그랑블,seongnam,18
+OD_000237,ORG_013,차바이오컴플렉스,HOME_006,백현마을5단지(주공),seongnam,18
+OD_000238,ORG_013,차바이오컴플렉스,HOME_011,봇들마을휴먼시아8단지,seongnam,18
+OD_000239,ORG_015,유스페이스1,EXT_010,죽전역,yongin,18
+OD_000240,ORG_001,LIG넥스원 판교하우스,EXT_004,삼성역,seoul,17
+OD_000241,ORG_001,LIG넥스원 판교하우스,HOME_013,산운마을11단지판교포레라움아파트,seongnam,17
+OD_000242,ORG_002,넥슨코리아,EXT_002,잠실역,seoul,17
+OD_000243,ORG_002,넥슨코리아,EXT_010,죽전역,yongin,17
+OD_000244,ORG_003,엔씨소프트 판교 R&D센터,EXT_003,수서역,seoul,17
+OD_000245,ORG_003,엔씨소프트 판교 R&D센터,HOME_024,성남두산,seongnam,17
+OD_000246,ORG_004,안랩,EXT_009,수원역,suwon,17
+OD_000247,ORG_004,안랩,EXT_010,죽전역,yongin,17
+OD_000248,ORG_004,안랩,HOME_011,봇들마을휴먼시아8단지,seongnam,17
+OD_000249,ORG_006,네오위즈 판교타워,HOME_013,산운마을11단지판교포레라움아파트,seongnam,17
+OD_000250,ORG_006,네오위즈 판교타워,HOME_016,산운마을6단지신동아파밀리에,seongnam,17
+OD_000251,ORG_006,네오위즈 판교타워,HOME_020,판교대방노블랜드,seongnam,17
+OD_000252,ORG_007,위메이드 판교 사옥,HOME_001,성남판교백현마을2단지,seongnam,17
+OD_000253,ORG_007,위메이드 판교 사옥,HOME_022,성남단대푸르지오,seongnam,17
+OD_000254,ORG_008,카카오게임즈,HOME_014,산운마을13단지,seongnam,17
+OD_000255,ORG_008,카카오게임즈,HOME_026,신흥역 하늘채 랜더스원 3단지,seongnam,17
+OD_000256,ORG_008,카카오게임즈,HOME_027,신흥역 하늘채 랜더스원 4단지,seongnam,17
+OD_000257,ORG_009,스마일게이트,EXT_007,사당역,seoul,17
+OD_000258,ORG_009,스마일게이트,HOME_015,산운마을14단지경남아너스빌아파트,seongnam,17
+OD_000259,ORG_010,웹젠,EXT_007,사당역,seoul,17
+OD_000260,ORG_010,웹젠,HOME_009,판교백현마을7단지,seongnam,17
+OD_000261,ORG_010,웹젠,HOME_011,봇들마을휴먼시아8단지,seongnam,17
+OD_000262,ORG_010,웹젠,HOME_013,산운마을11단지판교포레라움아파트,seongnam,17
+OD_000263,ORG_010,웹젠,HOME_018,판교 알파리움1단지,seongnam,17
+OD_000264,ORG_011,유라코퍼레이션,EXT_004,삼성역,seoul,17
+OD_000265,ORG_011,유라코퍼레이션,EXT_008,광교중앙역,suwon,17
+OD_000266,ORG_011,유라코퍼레이션,HOME_014,산운마을13단지,seongnam,17
+OD_000267,ORG_012,한국파스퇴르연구소,HOME_003,봇들마을3단지아파트,seongnam,17
+OD_000268,ORG_012,한국파스퇴르연구소,HOME_006,백현마을5단지(주공),seongnam,17
+OD_000269,ORG_012,한국파스퇴르연구소,HOME_013,산운마을11단지판교포레라움아파트,seongnam,17
+OD_000270,ORG_012,한국파스퇴르연구소,HOME_022,성남단대푸르지오,seongnam,17
+OD_000271,ORG_013,차바이오컴플렉스,EXT_002,잠실역,seoul,17
+OD_000272,ORG_013,차바이오컴플렉스,EXT_008,광교중앙역,suwon,17
+OD_000273,ORG_013,차바이오컴플렉스,HOME_009,판교백현마을7단지,seongnam,17
+OD_000274,ORG_013,차바이오컴플렉스,HOME_015,산운마을14단지경남아너스빌아파트,seongnam,17
+OD_000275,ORG_013,차바이오컴플렉스,HOME_027,신흥역 하늘채 랜더스원 4단지,seongnam,17
+OD_000276,ORG_014,경기창조경제혁신센터,EXT_005,선릉역,seoul,17
+OD_000277,ORG_014,경기창조경제혁신센터,HOME_004,봇들마을4단지,seongnam,17
+OD_000278,ORG_014,경기창조경제혁신센터,HOME_010,판교백현마을8단지,seongnam,17
+OD_000279,ORG_014,경기창조경제혁신센터,HOME_022,성남단대푸르지오,seongnam,17
+OD_000280,ORG_001,LIG넥스원 판교하우스,HOME_018,판교 알파리움1단지,seongnam,16
+OD_000281,ORG_001,LIG넥스원 판교하우스,HOME_024,성남두산,seongnam,16
+OD_000282,ORG_001,LIG넥스원 판교하우스,HOME_026,신흥역 하늘채 랜더스원 3단지,seongnam,16
+OD_000283,ORG_001,LIG넥스원 판교하우스,HOME_027,신흥역 하늘채 랜더스원 4단지,seongnam,16
+OD_000284,ORG_002,넥슨코리아,EXT_001,강남역,seoul,16
+OD_000285,ORG_002,넥슨코리아,HOME_001,성남판교백현마을2단지,seongnam,16
+OD_000286,ORG_002,넥슨코리아,HOME_006,백현마을5단지(주공),seongnam,16
+OD_000287,ORG_002,넥슨코리아,HOME_016,산운마을6단지신동아파밀리에,seongnam,16
+OD_000288,ORG_002,넥슨코리아,HOME_019,판교알파리움2단지,seongnam,16
+OD_000289,ORG_002,넥슨코리아,HOME_022,성남단대푸르지오,seongnam,16
+OD_000290,ORG_002,넥슨코리아,HOME_023,성남동어울림아파트,seongnam,16
+OD_000291,ORG_002,넥슨코리아,HOME_025,산성역 포레스티아 아파트,seongnam,16
+OD_000292,ORG_003,엔씨소프트 판교 R&D센터,EXT_008,광교중앙역,suwon,16
+OD_000293,ORG_003,엔씨소프트 판교 R&D센터,EXT_011,기흥역,yongin,16
+OD_000294,ORG_003,엔씨소프트 판교 R&D센터,HOME_004,봇들마을4단지,seongnam,16
+OD_000295,ORG_003,엔씨소프트 판교 R&D센터,HOME_014,산운마을13단지,seongnam,16
+OD_000296,ORG_003,엔씨소프트 판교 R&D센터,HOME_023,성남동어울림아파트,seongnam,16
+OD_000297,ORG_004,안랩,HOME_004,봇들마을4단지,seongnam,16
+OD_000298,ORG_004,안랩,HOME_008,판교봇들마을9단지금호어울림아파트,seongnam,16
+OD_000299,ORG_004,안랩,HOME_017,파크타운아파트,seongnam,16
+OD_000300,ORG_005,NHN Play Museum,EXT_009,수원역,suwon,16
+OD_000301,ORG_005,NHN Play Museum,EXT_012,경기광주역,gwangju,16
+OD_000302,ORG_005,NHN Play Museum,HOME_008,판교봇들마을9단지금호어울림아파트,seongnam,16
+OD_000303,ORG_005,NHN Play Museum,HOME_010,판교백현마을8단지,seongnam,16
+OD_000304,ORG_006,네오위즈 판교타워,EXT_004,삼성역,seoul,16
+OD_000305,ORG_006,네오위즈 판교타워,EXT_008,광교중앙역,suwon,16
+OD_000306,ORG_006,네오위즈 판교타워,HOME_001,성남판교백현마을2단지,seongnam,16
+OD_000307,ORG_006,네오위즈 판교타워,HOME_005,봇들마을7단지,seongnam,16
+OD_000308,ORG_006,네오위즈 판교타워,HOME_023,성남동어울림아파트,seongnam,16
+OD_000309,ORG_007,위메이드 판교 사옥,EXT_002,잠실역,seoul,16
+OD_000310,ORG_007,위메이드 판교 사옥,HOME_002,판교푸르지오그랑블,seongnam,16
+OD_000311,ORG_007,위메이드 판교 사옥,HOME_007,판교원마을7단지,seongnam,16
+OD_000312,ORG_007,위메이드 판교 사옥,HOME_010,판교백현마을8단지,seongnam,16
+OD_000313,ORG_007,위메이드 판교 사옥,HOME_012,산운12단지 판교센트럴포레,seongnam,16
+OD_000314,ORG_007,위메이드 판교 사옥,HOME_021,성남 센트럴타운,seongnam,16
+OD_000315,ORG_008,카카오게임즈,HOME_016,산운마을6단지신동아파밀리에,seongnam,16
+OD_000316,ORG_009,스마일게이트,EXT_008,광교중앙역,suwon,16
+OD_000317,ORG_009,스마일게이트,HOME_005,봇들마을7단지,seongnam,16
+OD_000318,ORG_009,스마일게이트,HOME_008,판교봇들마을9단지금호어울림아파트,seongnam,16
+OD_000319,ORG_009,스마일게이트,HOME_010,판교백현마을8단지,seongnam,16
+OD_000320,ORG_009,스마일게이트,HOME_018,판교 알파리움1단지,seongnam,16
+OD_000321,ORG_009,스마일게이트,HOME_022,성남단대푸르지오,seongnam,16
+OD_000322,ORG_009,스마일게이트,HOME_025,산성역 포레스티아 아파트,seongnam,16
+OD_000323,ORG_010,웹젠,HOME_025,산성역 포레스티아 아파트,seongnam,16
+OD_000324,ORG_011,유라코퍼레이션,HOME_001,성남판교백현마을2단지,seongnam,16
+OD_000325,ORG_011,유라코퍼레이션,HOME_002,판교푸르지오그랑블,seongnam,16
+OD_000326,ORG_011,유라코퍼레이션,HOME_012,산운12단지 판교센트럴포레,seongnam,16
+OD_000327,ORG_011,유라코퍼레이션,HOME_015,산운마을14단지경남아너스빌아파트,seongnam,16
+OD_000328,ORG_012,한국파스퇴르연구소,EXT_002,잠실역,seoul,16
+OD_000329,ORG_012,한국파스퇴르연구소,EXT_007,사당역,seoul,16
+OD_000330,ORG_012,한국파스퇴르연구소,HOME_004,봇들마을4단지,seongnam,16
+OD_000331,ORG_012,한국파스퇴르연구소,HOME_007,판교원마을7단지,seongnam,16
+OD_000332,ORG_012,한국파스퇴르연구소,HOME_018,판교 알파리움1단지,seongnam,16
+OD_000333,ORG_012,한국파스퇴르연구소,HOME_025,산성역 포레스티아 아파트,seongnam,16
+OD_000334,ORG_013,차바이오컴플렉스,HOME_010,판교백현마을8단지,seongnam,16
+OD_000335,ORG_013,차바이오컴플렉스,HOME_019,판교알파리움2단지,seongnam,16
+OD_000336,ORG_014,경기창조경제혁신센터,EXT_003,수서역,seoul,16
+OD_000337,ORG_014,경기창조경제혁신센터,HOME_009,판교백현마을7단지,seongnam,16
+OD_000338,ORG_014,경기창조경제혁신센터,HOME_011,봇들마을휴먼시아8단지,seongnam,16
+OD_000339,ORG_014,경기창조경제혁신센터,HOME_015,산운마을14단지경남아너스빌아파트,seongnam,16
+OD_000340,ORG_014,경기창조경제혁신센터,HOME_016,산운마을6단지신동아파밀리에,seongnam,16
+OD_000341,ORG_014,경기창조경제혁신센터,HOME_021,성남 센트럴타운,seongnam,16
+OD_000342,ORG_015,유스페이스1,HOME_012,산운12단지 판교센트럴포레,seongnam,16
+OD_000343,ORG_015,유스페이스1,HOME_019,판교알파리움2단지,seongnam,16
+OD_000344,ORG_015,유스페이스1,HOME_026,신흥역 하늘채 랜더스원 3단지,seongnam,16
+OD_000345,ORG_001,LIG넥스원 판교하우스,EXT_002,잠실역,seoul,15
+OD_000346,ORG_001,LIG넥스원 판교하우스,EXT_010,죽전역,yongin,15
+OD_000347,ORG_001,LIG넥스원 판교하우스,HOME_014,산운마을13단지,seongnam,15
+OD_000348,ORG_002,넥슨코리아,HOME_003,봇들마을3단지아파트,seongnam,15
+OD_000349,ORG_002,넥슨코리아,HOME_014,산운마을13단지,seongnam,15
+OD_000350,ORG_002,넥슨코리아,HOME_015,산운마을14단지경남아너스빌아파트,seongnam,15
+OD_000351,ORG_002,넥슨코리아,HOME_018,판교 알파리움1단지,seongnam,15
+OD_000352,ORG_002,넥슨코리아,HOME_026,신흥역 하늘채 랜더스원 3단지,seongnam,15
+OD_000353,ORG_003,엔씨소프트 판교 R&D센터,EXT_005,선릉역,seoul,15
+OD_000354,ORG_003,엔씨소프트 판교 R&D센터,EXT_013,미사역,hanam,15
+OD_000355,ORG_003,엔씨소프트 판교 R&D센터,HOME_001,성남판교백현마을2단지,seongnam,15
+OD_000356,ORG_003,엔씨소프트 판교 R&D센터,HOME_012,산운12단지 판교센트럴포레,seongnam,15
+OD_000357,ORG_003,엔씨소프트 판교 R&D센터,HOME_013,산운마을11단지판교포레라움아파트,seongnam,15
+OD_000358,ORG_003,엔씨소프트 판교 R&D센터,HOME_015,산운마을14단지경남아너스빌아파트,seongnam,15
+OD_000359,ORG_003,엔씨소프트 판교 R&D센터,HOME_025,산성역 포레스티아 아파트,seongnam,15
+OD_000360,ORG_004,안랩,EXT_003,수서역,seoul,15
+OD_000361,ORG_004,안랩,HOME_009,판교백현마을7단지,seongnam,15
+OD_000362,ORG_004,안랩,HOME_012,산운12단지 판교센트럴포레,seongnam,15
+OD_000363,ORG_004,안랩,HOME_013,산운마을11단지판교포레라움아파트,seongnam,15
+OD_000364,ORG_005,NHN Play Museum,HOME_001,성남판교백현마을2단지,seongnam,15
+OD_000365,ORG_005,NHN Play Museum,HOME_022,성남단대푸르지오,seongnam,15
+OD_000366,ORG_006,네오위즈 판교타워,HOME_027,신흥역 하늘채 랜더스원 4단지,seongnam,15
+OD_000367,ORG_007,위메이드 판교 사옥,EXT_009,수원역,suwon,15
+OD_000368,ORG_008,카카오게임즈,HOME_004,봇들마을4단지,seongnam,15
+OD_000369,ORG_008,카카오게임즈,HOME_011,봇들마을휴먼시아8단지,seongnam,15
+OD_000370,ORG_009,스마일게이트,EXT_005,선릉역,seoul,15
+OD_000371,ORG_009,스마일게이트,HOME_004,봇들마을4단지,seongnam,15
+OD_000372,ORG_009,스마일게이트,HOME_019,판교알파리움2단지,seongnam,15
+OD_000373,ORG_009,스마일게이트,HOME_020,판교대방노블랜드,seongnam,15
+OD_000374,ORG_010,웹젠,EXT_011,기흥역,yongin,15
+OD_000375,ORG_010,웹젠,EXT_012,경기광주역,gwangju,15
+OD_000376,ORG_010,웹젠,HOME_002,판교푸르지오그랑블,seongnam,15
+OD_000377,ORG_010,웹젠,HOME_008,판교봇들마을9단지금호어울림아파트,seongnam,15
+OD_000378,ORG_010,웹젠,HOME_010,판교백현마을8단지,seongnam,15
+OD_000379,ORG_010,웹젠,HOME_020,판교대방노블랜드,seongnam,15
+OD_000380,ORG_011,유라코퍼레이션,HOME_016,산운마을6단지신동아파밀리에,seongnam,15
+OD_000381,ORG_011,유라코퍼레이션,HOME_021,성남 센트럴타운,seongnam,15
+OD_000382,ORG_011,유라코퍼레이션,HOME_022,성남단대푸르지오,seongnam,15
+OD_000383,ORG_011,유라코퍼레이션,HOME_024,성남두산,seongnam,15
+OD_000384,ORG_011,유라코퍼레이션,HOME_027,신흥역 하늘채 랜더스원 4단지,seongnam,15
+OD_000385,ORG_012,한국파스퇴르연구소,HOME_001,성남판교백현마을2단지,seongnam,15
+OD_000386,ORG_012,한국파스퇴르연구소,HOME_014,산운마을13단지,seongnam,15
+OD_000387,ORG_012,한국파스퇴르연구소,HOME_020,판교대방노블랜드,seongnam,15
+OD_000388,ORG_012,한국파스퇴르연구소,HOME_027,신흥역 하늘채 랜더스원 4단지,seongnam,15
+OD_000389,ORG_013,차바이오컴플렉스,EXT_013,미사역,hanam,15
+OD_000390,ORG_013,차바이오컴플렉스,HOME_017,파크타운아파트,seongnam,15
+OD_000391,ORG_013,차바이오컴플렉스,HOME_023,성남동어울림아파트,seongnam,15
+OD_000392,ORG_013,차바이오컴플렉스,HOME_024,성남두산,seongnam,15
+OD_000393,ORG_014,경기창조경제혁신센터,HOME_005,봇들마을7단지,seongnam,15
+OD_000394,ORG_014,경기창조경제혁신센터,HOME_008,판교봇들마을9단지금호어울림아파트,seongnam,15
+OD_000395,ORG_014,경기창조경제혁신센터,HOME_018,판교 알파리움1단지,seongnam,15
+OD_000396,ORG_014,경기창조경제혁신센터,HOME_019,판교알파리움2단지,seongnam,15
+OD_000397,ORG_015,유스페이스1,EXT_008,광교중앙역,suwon,15
+OD_000398,ORG_015,유스페이스1,HOME_011,봇들마을휴먼시아8단지,seongnam,15
+OD_000399,ORG_015,유스페이스1,HOME_013,산운마을11단지판교포레라움아파트,seongnam,15
+OD_000400,ORG_015,유스페이스1,HOME_016,산운마을6단지신동아파밀리에,seongnam,15
+OD_000401,ORG_015,유스페이스1,HOME_022,성남단대푸르지오,seongnam,15
+OD_000402,ORG_015,유스페이스1,HOME_027,신흥역 하늘채 랜더스원 4단지,seongnam,15
+OD_000403,ORG_001,LIG넥스원 판교하우스,EXT_003,수서역,seoul,14
+OD_000404,ORG_001,LIG넥스원 판교하우스,EXT_006,교대역,seoul,14
+OD_000405,ORG_001,LIG넥스원 판교하우스,HOME_015,산운마을14단지경남아너스빌아파트,seongnam,14
+OD_000406,ORG_002,넥슨코리아,EXT_008,광교중앙역,suwon,14
+OD_000407,ORG_002,넥슨코리아,EXT_012,경기광주역,gwangju,14
+OD_000408,ORG_002,넥슨코리아,HOME_017,파크타운아파트,seongnam,14
+OD_000409,ORG_003,엔씨소프트 판교 R&D센터,HOME_020,판교대방노블랜드,seongnam,14
+OD_000410,ORG_004,안랩,HOME_010,판교백현마을8단지,seongnam,14
+OD_000411,ORG_004,안랩,HOME_021,성남 센트럴타운,seongnam,14
+OD_000412,ORG_004,안랩,HOME_024,성남두산,seongnam,14
+OD_000413,ORG_004,안랩,HOME_027,신흥역 하늘채 랜더스원 4단지,seongnam,14
+OD_000414,ORG_005,NHN Play Museum,HOME_002,판교푸르지오그랑블,seongnam,14
+OD_000415,ORG_005,NHN Play Museum,HOME_023,성남동어울림아파트,seongnam,14
+OD_000416,ORG_005,NHN Play Museum,HOME_025,산성역 포레스티아 아파트,seongnam,14
+OD_000417,ORG_006,네오위즈 판교타워,EXT_009,수원역,suwon,14
+OD_000418,ORG_006,네오위즈 판교타워,HOME_009,판교백현마을7단지,seongnam,14
+OD_000419,ORG_007,위메이드 판교 사옥,HOME_006,백현마을5단지(주공),seongnam,14
+OD_000420,ORG_007,위메이드 판교 사옥,HOME_018,판교 알파리움1단지,seongnam,14
+OD_000421,ORG_007,위메이드 판교 사옥,HOME_026,신흥역 하늘채 랜더스원 3단지,seongnam,14
+OD_000422,ORG_008,카카오게임즈,EXT_002,잠실역,seoul,14
+OD_000423,ORG_008,카카오게임즈,HOME_010,판교백현마을8단지,seongnam,14
+OD_000424,ORG_008,카카오게임즈,HOME_018,판교 알파리움1단지,seongnam,14
+OD_000425,ORG_009,스마일게이트,EXT_010,죽전역,yongin,14
+OD_000426,ORG_009,스마일게이트,HOME_007,판교원마을7단지,seongnam,14
+OD_000427,ORG_009,스마일게이트,HOME_009,판교백현마을7단지,seongnam,14
+OD_000428,ORG_009,스마일게이트,HOME_013,산운마을11단지판교포레라움아파트,seongnam,14
+OD_000429,ORG_009,스마일게이트,HOME_014,산운마을13단지,seongnam,14
+OD_000430,ORG_009,스마일게이트,HOME_026,신흥역 하늘채 랜더스원 3단지,seongnam,14
+OD_000431,ORG_010,웹젠,HOME_006,백현마을5단지(주공),seongnam,14
+OD_000432,ORG_011,유라코퍼레이션,EXT_003,수서역,seoul,14
+OD_000433,ORG_011,유라코퍼레이션,HOME_007,판교원마을7단지,seongnam,14
+OD_000434,ORG_011,유라코퍼레이션,HOME_010,판교백현마을8단지,seongnam,14
+OD_000435,ORG_011,유라코퍼레이션,HOME_011,봇들마을휴먼시아8단지,seongnam,14
+OD_000436,ORG_011,유라코퍼레이션,HOME_017,파크타운아파트,seongnam,14
+OD_000437,ORG_011,유라코퍼레이션,HOME_020,판교대방노블랜드,seongnam,14
+OD_000438,ORG_012,한국파스퇴르연구소,HOME_009,판교백현마을7단지,seongnam,14
+OD_000439,ORG_012,한국파스퇴르연구소,HOME_010,판교백현마을8단지,seongnam,14
+OD_000440,ORG_013,차바이오컴플렉스,HOME_016,산운마을6단지신동아파밀리에,seongnam,14
+OD_000441,ORG_013,차바이오컴플렉스,HOME_020,판교대방노블랜드,seongnam,14
+OD_000442,ORG_014,경기창조경제혁신센터,EXT_006,교대역,seoul,14
+OD_000443,ORG_014,경기창조경제혁신센터,HOME_027,신흥역 하늘채 랜더스원 4단지,seongnam,14
+OD_000444,ORG_015,유스페이스1,HOME_004,봇들마을4단지,seongnam,14
+OD_000445,ORG_015,유스페이스1,HOME_006,백현마을5단지(주공),seongnam,14
+OD_000446,ORG_001,LIG넥스원 판교하우스,HOME_004,봇들마을4단지,seongnam,13
+OD_000447,ORG_001,LIG넥스원 판교하우스,HOME_005,봇들마을7단지,seongnam,13
+OD_000448,ORG_002,넥슨코리아,HOME_021,성남 센트럴타운,seongnam,13
+OD_000449,ORG_003,엔씨소프트 판교 R&D센터,HOME_003,봇들마을3단지아파트,seongnam,13
+OD_000450,ORG_003,엔씨소프트 판교 R&D센터,HOME_017,파크타운아파트,seongnam,13
+OD_000451,ORG_004,안랩,HOME_001,성남판교백현마을2단지,seongnam,13
+OD_000452,ORG_004,안랩,HOME_005,봇들마을7단지,seongnam,13
+OD_000453,ORG_004,안랩,HOME_006,백현마을5단지(주공),seongnam,13
+OD_000454,ORG_004,안랩,HOME_014,산운마을13단지,seongnam,13
+OD_000455,ORG_004,안랩,HOME_020,판교대방노블랜드,seongnam,13
+OD_000456,ORG_004,안랩,HOME_025,산성역 포레스티아 아파트,seongnam,13
+OD_000457,ORG_005,NHN Play Museum,HOME_009,판교백현마을7단지,seongnam,13
+OD_000458,ORG_005,NHN Play Museum,HOME_013,산운마을11단지판교포레라움아파트,seongnam,13
+OD_000459,ORG_006,네오위즈 판교타워,HOME_011,봇들마을휴먼시아8단지,seongnam,13
+OD_000460,ORG_006,네오위즈 판교타워,HOME_024,성남두산,seongnam,13
+OD_000461,ORG_007,위메이드 판교 사옥,EXT_005,선릉역,seoul,13
+OD_000462,ORG_007,위메이드 판교 사옥,HOME_004,봇들마을4단지,seongnam,13
+OD_000463,ORG_007,위메이드 판교 사옥,HOME_014,산운마을13단지,seongnam,13
+OD_000464,ORG_007,위메이드 판교 사옥,HOME_015,산운마을14단지경남아너스빌아파트,seongnam,13
+OD_000465,ORG_007,위메이드 판교 사옥,HOME_019,판교알파리움2단지,seongnam,13
+OD_000466,ORG_008,카카오게임즈,EXT_003,수서역,seoul,13
+OD_000467,ORG_008,카카오게임즈,HOME_006,백현마을5단지(주공),seongnam,13
+OD_000468,ORG_008,카카오게임즈,HOME_023,성남동어울림아파트,seongnam,13
+OD_000469,ORG_009,스마일게이트,HOME_001,성남판교백현마을2단지,seongnam,13
+OD_000470,ORG_009,스마일게이트,HOME_024,성남두산,seongnam,13
+OD_000471,ORG_011,유라코퍼레이션,EXT_002,잠실역,seoul,13
+OD_000472,ORG_011,유라코퍼레이션,HOME_023,성남동어울림아파트,seongnam,13
+OD_000473,ORG_011,유라코퍼레이션,HOME_025,산성역 포레스티아 아파트,seongnam,13
+OD_000474,ORG_012,한국파스퇴르연구소,HOME_021,성남 센트럴타운,seongnam,13
+OD_000475,ORG_013,차바이오컴플렉스,HOME_007,판교원마을7단지,seongnam,13
+OD_000476,ORG_013,차바이오컴플렉스,HOME_012,산운12단지 판교센트럴포레,seongnam,13
+OD_000477,ORG_013,차바이오컴플렉스,HOME_021,성남 센트럴타운,seongnam,13
+OD_000478,ORG_013,차바이오컴플렉스,HOME_026,신흥역 하늘채 랜더스원 3단지,seongnam,13
+OD_000479,ORG_014,경기창조경제혁신센터,HOME_002,판교푸르지오그랑블,seongnam,13
+OD_000480,ORG_014,경기창조경제혁신센터,HOME_007,판교원마을7단지,seongnam,13
+OD_000481,ORG_014,경기창조경제혁신센터,HOME_017,파크타운아파트,seongnam,13
+OD_000482,ORG_015,유스페이스1,HOME_010,판교백현마을8단지,seongnam,13
+OD_000483,ORG_001,LIG넥스원 판교하우스,HOME_002,판교푸르지오그랑블,seongnam,12
+OD_000484,ORG_001,LIG넥스원 판교하우스,HOME_020,판교대방노블랜드,seongnam,12
+OD_000485,ORG_002,넥슨코리아,HOME_010,판교백현마을8단지,seongnam,12
+OD_000486,ORG_002,넥슨코리아,HOME_011,봇들마을휴먼시아8단지,seongnam,12
+OD_000487,ORG_003,엔씨소프트 판교 R&D센터,HOME_002,판교푸르지오그랑블,seongnam,12
+OD_000488,ORG_003,엔씨소프트 판교 R&D센터,HOME_005,봇들마을7단지,seongnam,12
+OD_000489,ORG_003,엔씨소프트 판교 R&D센터,HOME_010,판교백현마을8단지,seongnam,12
+OD_000490,ORG_005,NHN Play Museum,HOME_005,봇들마을7단지,seongnam,12
+OD_000491,ORG_005,NHN Play Museum,HOME_017,파크타운아파트,seongnam,12
+OD_000492,ORG_005,NHN Play Museum,HOME_020,판교대방노블랜드,seongnam,12
+OD_000493,ORG_005,NHN Play Museum,HOME_026,신흥역 하늘채 랜더스원 3단지,seongnam,12
+OD_000494,ORG_006,네오위즈 판교타워,HOME_014,산운마을13단지,seongnam,12
+OD_000495,ORG_006,네오위즈 판교타워,HOME_018,판교 알파리움1단지,seongnam,12
+OD_000496,ORG_007,위메이드 판교 사옥,HOME_003,봇들마을3단지아파트,seongnam,12
+OD_000497,ORG_007,위메이드 판교 사옥,HOME_011,봇들마을휴먼시아8단지,seongnam,12
+OD_000498,ORG_007,위메이드 판교 사옥,HOME_023,성남동어울림아파트,seongnam,12
+OD_000499,ORG_009,스마일게이트,HOME_017,파크타운아파트,seongnam,12
+OD_000500,ORG_009,스마일게이트,HOME_027,신흥역 하늘채 랜더스원 4단지,seongnam,12
+OD_000501,ORG_010,웹젠,EXT_008,광교중앙역,suwon,12
+OD_000502,ORG_010,웹젠,HOME_024,성남두산,seongnam,12
+OD_000503,ORG_011,유라코퍼레이션,HOME_013,산운마을11단지판교포레라움아파트,seongnam,12
+OD_000504,ORG_011,유라코퍼레이션,HOME_026,신흥역 하늘채 랜더스원 3단지,seongnam,12
+OD_000505,ORG_012,한국파스퇴르연구소,EXT_004,삼성역,seoul,12
+OD_000506,ORG_012,한국파스퇴르연구소,HOME_005,봇들마을7단지,seongnam,12
+OD_000507,ORG_013,차바이오컴플렉스,HOME_008,판교봇들마을9단지금호어울림아파트,seongnam,12
+OD_000508,ORG_013,차바이오컴플렉스,HOME_018,판교 알파리움1단지,seongnam,12
+OD_000509,ORG_014,경기창조경제혁신센터,EXT_001,강남역,seoul,12
+OD_000510,ORG_014,경기창조경제혁신센터,HOME_013,산운마을11단지판교포레라움아파트,seongnam,12
+OD_000511,ORG_015,유스페이스1,HOME_014,산운마을13단지,seongnam,12
+OD_000512,ORG_015,유스페이스1,HOME_020,판교대방노블랜드,seongnam,12
+OD_000513,ORG_001,LIG넥스원 판교하우스,HOME_001,성남판교백현마을2단지,seongnam,11
+OD_000514,ORG_001,LIG넥스원 판교하우스,HOME_025,산성역 포레스티아 아파트,seongnam,11
+OD_000515,ORG_002,넥슨코리아,HOME_002,판교푸르지오그랑블,seongnam,11
+OD_000516,ORG_002,넥슨코리아,HOME_012,산운12단지 판교센트럴포레,seongnam,11
+OD_000517,ORG_002,넥슨코리아,HOME_020,판교대방노블랜드,seongnam,11
+OD_000518,ORG_003,엔씨소프트 판교 R&D센터,HOME_021,성남 센트럴타운,seongnam,11
+OD_000519,ORG_005,NHN Play Museum,HOME_011,봇들마을휴먼시아8단지,seongnam,11
+OD_000520,ORG_006,네오위즈 판교타워,HOME_010,판교백현마을8단지,seongnam,11
+OD_000521,ORG_006,네오위즈 판교타워,HOME_017,파크타운아파트,seongnam,11
+OD_000522,ORG_006,네오위즈 판교타워,HOME_025,산성역 포레스티아 아파트,seongnam,11
+OD_000523,ORG_008,카카오게임즈,HOME_020,판교대방노블랜드,seongnam,11
+OD_000524,ORG_009,스마일게이트,HOME_003,봇들마을3단지아파트,seongnam,11
+OD_000525,ORG_009,스마일게이트,HOME_012,산운12단지 판교센트럴포레,seongnam,11
+OD_000526,ORG_009,스마일게이트,HOME_021,성남 센트럴타운,seongnam,11
+OD_000527,ORG_010,웹젠,HOME_005,봇들마을7단지,seongnam,11
+OD_000528,ORG_010,웹젠,HOME_017,파크타운아파트,seongnam,11
+OD_000529,ORG_011,유라코퍼레이션,HOME_006,백현마을5단지(주공),seongnam,11
+OD_000530,ORG_012,한국파스퇴르연구소,HOME_012,산운12단지 판교센트럴포레,seongnam,11
+OD_000531,ORG_012,한국파스퇴르연구소,HOME_024,성남두산,seongnam,11
+OD_000532,ORG_013,차바이오컴플렉스,HOME_004,봇들마을4단지,seongnam,11
+OD_000533,ORG_013,차바이오컴플렉스,HOME_013,산운마을11단지판교포레라움아파트,seongnam,11
+OD_000534,ORG_013,차바이오컴플렉스,HOME_014,산운마을13단지,seongnam,11
+OD_000535,ORG_014,경기창조경제혁신센터,EXT_013,미사역,hanam,11
+OD_000536,ORG_014,경기창조경제혁신센터,HOME_014,산운마을13단지,seongnam,11
+OD_000537,ORG_015,유스페이스1,HOME_015,산운마을14단지경남아너스빌아파트,seongnam,11
+OD_000538,ORG_015,유스페이스1,HOME_021,성남 센트럴타운,seongnam,11
+OD_000539,ORG_001,LIG넥스원 판교하우스,HOME_006,백현마을5단지(주공),seongnam,10
+OD_000540,ORG_001,LIG넥스원 판교하우스,HOME_007,판교원마을7단지,seongnam,10
+OD_000541,ORG_001,LIG넥스원 판교하우스,HOME_008,판교봇들마을9단지금호어울림아파트,seongnam,10
+OD_000542,ORG_001,LIG넥스원 판교하우스,HOME_023,성남동어울림아파트,seongnam,10
+OD_000543,ORG_002,넥슨코리아,HOME_007,판교원마을7단지,seongnam,10
+OD_000544,ORG_004,안랩,HOME_007,판교원마을7단지,seongnam,10
+OD_000545,ORG_004,안랩,HOME_019,판교알파리움2단지,seongnam,10
+OD_000546,ORG_005,NHN Play Museum,HOME_004,봇들마을4단지,seongnam,10
+OD_000547,ORG_005,NHN Play Museum,HOME_007,판교원마을7단지,seongnam,10
+OD_000548,ORG_005,NHN Play Museum,HOME_018,판교 알파리움1단지,seongnam,10
+OD_000549,ORG_006,네오위즈 판교타워,HOME_022,성남단대푸르지오,seongnam,10
+OD_000550,ORG_007,위메이드 판교 사옥,HOME_020,판교대방노블랜드,seongnam,10
+OD_000551,ORG_008,카카오게임즈,HOME_009,판교백현마을7단지,seongnam,10
+OD_000552,ORG_008,카카오게임즈,HOME_017,파크타운아파트,seongnam,10
+OD_000553,ORG_008,카카오게임즈,HOME_024,성남두산,seongnam,10
+OD_000554,ORG_009,스마일게이트,HOME_006,백현마을5단지(주공),seongnam,10
+OD_000555,ORG_010,웹젠,HOME_001,성남판교백현마을2단지,seongnam,10
+OD_000556,ORG_010,웹젠,HOME_019,판교알파리움2단지,seongnam,10
+OD_000557,ORG_011,유라코퍼레이션,HOME_008,판교봇들마을9단지금호어울림아파트,seongnam,10
+OD_000558,ORG_012,한국파스퇴르연구소,EXT_012,경기광주역,gwangju,10
+OD_000559,ORG_012,한국파스퇴르연구소,HOME_015,산운마을14단지경남아너스빌아파트,seongnam,10
+OD_000560,ORG_012,한국파스퇴르연구소,HOME_017,파크타운아파트,seongnam,10
+OD_000561,ORG_012,한국파스퇴르연구소,HOME_019,판교알파리움2단지,seongnam,10
+OD_000562,ORG_013,차바이오컴플렉스,HOME_005,봇들마을7단지,seongnam,10
+OD_000563,ORG_014,경기창조경제혁신센터,HOME_024,성남두산,seongnam,10
+OD_000564,ORG_015,유스페이스1,HOME_005,봇들마을7단지,seongnam,10
+OD_000565,ORG_002,넥슨코리아,HOME_008,판교봇들마을9단지금호어울림아파트,seongnam,9
+OD_000566,ORG_003,엔씨소프트 판교 R&D센터,HOME_019,판교알파리움2단지,seongnam,9
+OD_000567,ORG_006,네오위즈 판교타워,HOME_012,산운12단지 판교센트럴포레,seongnam,9
+OD_000568,ORG_007,위메이드 판교 사옥,HOME_008,판교봇들마을9단지금호어울림아파트,seongnam,9
+OD_000569,ORG_007,위메이드 판교 사옥,HOME_025,산성역 포레스티아 아파트,seongnam,9
+OD_000570,ORG_009,스마일게이트,HOME_002,판교푸르지오그랑블,seongnam,9
+OD_000571,ORG_009,스마일게이트,HOME_023,성남동어울림아파트,seongnam,9
+OD_000572,ORG_010,웹젠,HOME_015,산운마을14단지경남아너스빌아파트,seongnam,9
+OD_000573,ORG_012,한국파스퇴르연구소,HOME_002,판교푸르지오그랑블,seongnam,9
+OD_000574,ORG_012,한국파스퇴르연구소,HOME_023,성남동어울림아파트,seongnam,9
+OD_000575,ORG_014,경기창조경제혁신센터,HOME_003,봇들마을3단지아파트,seongnam,9
+OD_000576,ORG_014,경기창조경제혁신센터,HOME_012,산운12단지 판교센트럴포레,seongnam,9
+OD_000577,ORG_001,LIG넥스원 판교하우스,HOME_003,봇들마을3단지아파트,seongnam,8
+OD_000578,ORG_002,넥슨코리아,HOME_024,성남두산,seongnam,8
+OD_000579,ORG_003,엔씨소프트 판교 R&D센터,HOME_018,판교 알파리움1단지,seongnam,8
+OD_000580,ORG_003,엔씨소프트 판교 R&D센터,HOME_027,신흥역 하늘채 랜더스원 4단지,seongnam,8
+OD_000581,ORG_004,안랩,HOME_026,신흥역 하늘채 랜더스원 3단지,seongnam,8
+OD_000582,ORG_007,위메이드 판교 사옥,HOME_005,봇들마을7단지,seongnam,8
+OD_000583,ORG_008,카카오게임즈,HOME_022,성남단대푸르지오,seongnam,8
+OD_000584,ORG_011,유라코퍼레이션,HOME_004,봇들마을4단지,seongnam,8
+OD_000585,ORG_013,차바이오컴플렉스,HOME_022,성남단대푸르지오,seongnam,8
+OD_000586,ORG_014,경기창조경제혁신센터,HOME_020,판교대방노블랜드,seongnam,8
+OD_000587,ORG_015,유스페이스1,HOME_003,봇들마을3단지아파트,seongnam,8
+OD_000588,ORG_015,유스페이스1,HOME_007,판교원마을7단지,seongnam,8
+OD_000589,ORG_001,LIG넥스원 판교하우스,HOME_009,판교백현마을7단지,seongnam,7
+OD_000590,ORG_002,넥슨코리아,HOME_009,판교백현마을7단지,seongnam,7
+OD_000591,ORG_002,넥슨코리아,HOME_013,산운마을11단지판교포레라움아파트,seongnam,7
+OD_000592,ORG_003,엔씨소프트 판교 R&D센터,HOME_006,백현마을5단지(주공),seongnam,7
+OD_000593,ORG_004,안랩,HOME_018,판교 알파리움1단지,seongnam,7
+OD_000594,ORG_008,카카오게임즈,HOME_012,산운12단지 판교센트럴포레,seongnam,7
+OD_000595,ORG_014,경기창조경제혁신센터,HOME_006,백현마을5단지(주공),seongnam,7
+OD_000596,ORG_015,유스페이스1,HOME_018,판교 알파리움1단지,seongnam,7
+OD_000597,ORG_005,NHN Play Museum,HOME_016,산운마을6단지신동아파밀리에,seongnam,6
+OD_000598,ORG_005,NHN Play Museum,HOME_021,성남 센트럴타운,seongnam,6
+OD_000599,ORG_007,위메이드 판교 사옥,HOME_027,신흥역 하늘채 랜더스원 4단지,seongnam,6
+OD_000600,ORG_005,NHN Play Museum,HOME_019,판교알파리움2단지,seongnam,4

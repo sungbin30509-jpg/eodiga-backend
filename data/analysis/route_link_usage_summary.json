@@ -1,0 +1,18 @@
+{
+  "od_result_file_count": 100,
+  "processed_od_count": 100,
+  "skipped_od_count": 0,
+  "mapped_route_count": 293,
+  "failed_route_count": 7,
+  "unique_seongnam_link_count": 896,
+  "ai_status_distribution": {
+    "unsupported": 809,
+    "supported": 87
+  },
+  "unknown_location_link_events": 0,
+  "output_file": "C:\\Users\\문성빈\\OneDrive\\바탕 화면\\flow\\FLOWMATE\\data\\analysis\\route_link_usage.csv",
+  "usage_definition": {
+    "affected_user_weight": "Same OD contributes its user_count only once per LINK across A/B/C.",
+    "candidate_user_exposure": "User_count summed for each route candidate containing the LINK."
+  }
+}

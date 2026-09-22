@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>FLOWMATE</title>
+
+
+    <!-- =====================================================
+         TMAP JavaScript SDK
+    ====================================================== -->
+
+    <script
+        src="https://apis.openapi.sk.com/tmap/jsv2?version=1&appKey={{ tmap_app_key }}">
+    </script>
+
+
+    <!-- =====================================================
+         CSS
+    ====================================================== -->
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 750px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f5f6f8;
+        }
+
+
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 16px;
+
+            box-shadow:
+                0 4px 15px
+                rgba(0, 0, 0, 0.08);
+        }
+
+
+        h1 {
+            margin-bottom: 5px;
+        }
+
+
+        .subtitle {
+            margin-top: 0;
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+
+        hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 25px 0;
+        }
+
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+
+        input[type="text"] {
+            width: 100%;
+            box-sizing: border-box;
+
+            padding: 14px;
+
+            margin-top: 5px;
+            margin-bottom: 18px;
+
+            border: 1px solid #ccc;
+            border-radius: 9px;
+
+            font-size: 16px;
+        }
+
+
+        button {
+            width: 100%;
+
+            padding: 15px;
+
+            border: none;
+            border-radius: 9px;
+
+            font-size: 16px;
+            font-weight: bold;
+
+            cursor: pointer;
+        }
+
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+
+        .location-box {
+            background-color: #f1f3f5;
+
+            padding: 15px;
+
+            border-radius: 10px;
+
+            margin-bottom: 20px;
+        }
+
+
+        .location-box p {
+            margin-bottom: 0;
+        }
+
+
+        #map_div {
+            width: 100%;
+            height: 450px;
+
+            margin-top: 25px;
+
+            border-radius: 12px;
+
+            overflow: hidden;
+
+            background-color: #eee;
+        }
+
+
+        .result {
+            margin-top: 25px;
+
+            padding: 20px;
+
+            background-color: #f1f3f5;
+
+            border-radius: 10px;
+        }
+
+
+        .error {
+            margin-top: 20px;
+
+            padding: 15px;
+
+            background-color: #ffe5e5;
+
+            border-radius: 10px;
+        }
+
+
+        .ai-box {
+            margin-top: 25px;
+
+            padding: 20px;
+
+            background-color: #f8f9fa;
+
+            border-radius: 10px;
+        }
+
+
+        .small-text {
+            font-size: 13px;
+            color: #777;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+    <!-- =====================================================
+         제목
+    ====================================================== -->
+
+    <h1>
+        FLOWMATE
+    </h1>
+
+
+    <p class="subtitle">
+        AI 기반 교통수요 분산 서비스
+    </p>
+
+
+    <hr>
+
+
+    <!-- =====================================================
+         경로 검색
+    ====================================================== -->
+
+    <h2>
+        🚗 퇴근 경로 검색
+    </h2>
+
+
+    <!-- =====================================================
+         현재 위치
+    ====================================================== -->
+
+    <div class="location-box">
+
+        <strong>
+            📍 현재 위치
+        </strong>
+
+
+        <p id="locationStatus">
+            현재 위치를 확인하고 있습니다...
+        </p>
+
+
+        <p
+            id="locationCoordinates"
+            class="small-text"
+        >
+        </p>
+
+    </div>
+
+
+    <!-- =====================================================
+         경로 검색 FORM
+    ====================================================== -->
+
+    <form
+        method="POST"
+        action="/"
+        id="routeForm"
+    >
+
+
+        <!-- GPS 위도 -->
+
+        <input
+            type="hidden"
+            name="start_latitude"
+            id="startLatitude"
+        >
+
+
+        <!-- GPS 경도 -->
+
+        <input
+            type="hidden"
+            name="start_longitude"
+            id="startLongitude"
+        >
+
+
+        <!-- 목적지 -->
+
+        <label for="destination">
+
+            <strong>
+                목적지
+            </strong>
+
+        </label>
+
+
+        <input
+            type="text"
+            id="destination"
+            name="destination"
+            placeholder="예: 판교역"
+            required
+        >
+
+
+        <button
+            type="submit"
+            id="searchButton"
+            disabled
+        >
+            현재 위치에서 경로 검색
+        </button>
+
+
+    </form>
+
+
+    <!-- =====================================================
+         오류
+    ====================================================== -->
+
+    {% if error %}
+
+        <div class="error">
+
+            {{ error }}
+
+        </div>
+
+    {% endif %}
+
+
+    <!-- =====================================================
+         TMAP 지도
+    ====================================================== -->
+
+    <div id="map_div"></div>
+
+
+    <!-- =====================================================
+         경로 탐색 결과
+    ====================================================== -->
+
+    {% if destination and route %}
+
+        <div class="result">
+
+
+            <h2>
+                🚗 경로 탐색 결과
+            </h2>
+
+
+            <p>
+                <strong>목적지:</strong>
+
+                {{ destination.name }}
+            </p>
+
+
+            <p>
+                <strong>주소:</strong>
+
+                {{ destination.address }}
+            </p>
+
+
+            <hr>
+
+
+            <p>
+                <strong>총 거리:</strong>
+
+                {{ route.distance_km }} km
+            </p>
+
+
+            <p>
+                <strong>현재 예상 소요시간:</strong>
+
+                {{ route.time_min }} 분
+            </p>
+
+
+            <p>
+                <strong>통행료:</strong>
+
+                {{ "{:,}".format(route.total_fare) }} 원
+            </p>
+
+
+            <p>
+                <strong>택시 예상요금:</strong>
+
+                {{ "{:,}".format(route.taxi_fare) }} 원
+            </p>
+
+
+        </div>
+
+    {% endif %}
+
+
+    <!-- =====================================================
+         AI 영역
+    ====================================================== -->
+
+    <div class="ai-box">
+
+
+        <h2>
+            🤖 FLOWMATE AI
+        </h2>
+
+
+        <p>
+            현재 교통상황과 미래 혼잡을 분석하여
+            최적의 출발시간과 경로를 추천합니다.
+        </p>
+
+
+        <p class="small-text">
+            다음 단계에서 경기도 교통정보와
+            CatBoost 30분 뒤 속도 예측을 연결합니다.
+        </p>
+
+
+    </div>
+
+
+</div>
+
+
+
+<!-- =========================================================
+     Flask → JavaScript 경로 데이터
+========================================================== -->
+
+<script>
+
+
+    /*
+        route가 존재할 경우
+
+        Python의 route 데이터를
+        JavaScript에서 사용할 수 있도록 변환한다.
+    */
+
+
+    {% if route %}
+
+
+        // -----------------------------------------------------
+        // 실제 자동차 경로 좌표
+        // -----------------------------------------------------
+
+        const routePathData =
+            {{ route.get("route_path", []) | tojson }};
+
+
+        // -----------------------------------------------------
+        // 출발 위치
+        //
+        // tojson을 사용하므로
+        // 값이 None이면 JavaScript null로 변환된다.
+        // -----------------------------------------------------
+
+        const routeStartLatitude =
+            {{ route.get("start_latitude") | tojson }};
+
+
+        const routeStartLongitude =
+            {{ route.get("start_longitude") | tojson }};
+
+
+        // -----------------------------------------------------
+        // 목적지 위치
+        // -----------------------------------------------------
+
+        const routeEndLatitude =
+            {{ route.get("end_latitude") | tojson }};
+
+
+        const routeEndLongitude =
+            {{ route.get("end_longitude") | tojson }};
+
+
+    {% else %}
+
+
+        const routePathData = [];
+
+
+        const routeStartLatitude = null;
+
+
+        const routeStartLongitude = null;
+
+
+        const routeEndLatitude = null;
+
+
+        const routeEndLongitude = null;
+
+
+    {% endif %}
+
+
+</script>
+
+
+
+<!-- =========================================================
+     TMAP 지도
+========================================================== -->
+
+<script>
+
+
+    let map = null;
+
+
+    let currentLocationMarker = null;
+
+
+
+    // ========================================================
+    // 경로 거리에 따라 지도 Zoom 값 대략 결정
+    //
+    // 춘천 → 판교처럼 거리가 멀어도
+    // 어느 정도 전체 경로가 보이도록 한다.
+    // ========================================================
+
+    function getRouteZoom(
+        startLat,
+        startLon,
+        endLat,
+        endLon
+    ) {
+
+
+        const latDifference =
+            Math.abs(
+                startLat - endLat
+            );
+
+
+        const lonDifference =
+            Math.abs(
+                startLon - endLon
+            );
+
+
+        const difference =
+            Math.max(
+                latDifference,
+                lonDifference
+            );
+
+
+        if (difference > 2) {
+            return 7;
+        }
+
+
+        if (difference > 1) {
+            return 8;
+        }
+
+
+        if (difference > 0.5) {
+            return 9;
+        }
+
+
+        if (difference > 0.2) {
+            return 10;
+        }
+
+
+        if (difference > 0.1) {
+            return 11;
+        }
+
+
+        if (difference > 0.05) {
+            return 12;
+        }
+
+
+        return 14;
+
+    }
+
+
+
+    // ========================================================
+    // 지도 생성
+    // ========================================================
+
+    function createMap(
+        latitude,
+        longitude
+    ) {
+
+
+        // -----------------------------------------------------
+        // TMAP SDK 확인
+        // -----------------------------------------------------
+
+        if (
+            typeof Tmapv2 === "undefined"
+        ) {
+
+
+            console.error(
+                "TMAP JavaScript SDK를 불러오지 못했습니다."
+            );
+
+
+            return;
+
+        }
+
+
+        // -----------------------------------------------------
+        // 지도 영역 초기화
+        // -----------------------------------------------------
+
+        const mapDiv =
+            document.getElementById(
+                "map_div"
+            );
+
+
+        mapDiv.innerHTML = "";
+
+
+        // -----------------------------------------------------
+        // 기본 Zoom
+        // -----------------------------------------------------
+
+        let zoomLevel = 14;
+
+
+        // -----------------------------------------------------
+        // 검색 결과가 있으면 경로 크기에 맞게 Zoom
+        // -----------------------------------------------------
+
+        if (
+            routeStartLatitude !== null &&
+            routeStartLongitude !== null &&
+            routeEndLatitude !== null &&
+            routeEndLongitude !== null
+        ) {
+
+
+            zoomLevel =
+                getRouteZoom(
+
+                    routeStartLatitude,
+
+                    routeStartLongitude,
+
+                    routeEndLatitude,
+
+                    routeEndLongitude
+                );
+
+        }
+
+
+        // -----------------------------------------------------
+        // 지도 생성
+        // -----------------------------------------------------
+
+        map =
+            new Tmapv2.Map(
+
+                "map_div",
+
+                {
+
+                    center:
+                        new Tmapv2.LatLng(
+
+                            latitude,
+
+                            longitude
+                        ),
+
+                    width:
+                        "100%",
+
+                    height:
+                        "450px",
+
+                    zoom:
+                        zoomLevel,
+
+                    zoomControl:
+                        true,
+
+                    scrollwheel:
+                        true
+                }
+
+            );
+
+
+        // ====================================================
+        // 검색 결과가 있는 경우
+        // ====================================================
+
+        if (
+            routePathData.length > 0 &&
+            routeStartLatitude !== null &&
+            routeStartLongitude !== null &&
+            routeEndLatitude !== null &&
+            routeEndLongitude !== null
+        ) {
+
+
+            // -------------------------------------------------
+            // 출발지 마커
+            // -------------------------------------------------
+
+            new Tmapv2.Marker({
+
+                position:
+                    new Tmapv2.LatLng(
+
+                        routeStartLatitude,
+
+                        routeStartLongitude
+                    ),
+
+                map:
+                    map
+            });
+
+
+            // -------------------------------------------------
+            // 목적지 마커
+            // -------------------------------------------------
+
+            new Tmapv2.Marker({
+
+                position:
+                    new Tmapv2.LatLng(
+
+                        routeEndLatitude,
+
+                        routeEndLongitude
+                    ),
+
+                map:
+                    map
+            });
+
+
+            // -------------------------------------------------
+            // 경로 좌표 변환
+            // -------------------------------------------------
+
+            const polylinePath = [];
+
+
+            for (
+                let i = 0;
+                i < routePathData.length;
+                i++
+            ) {
+
+
+                const point =
+                    routePathData[i];
+
+
+                polylinePath.push(
+
+                    new Tmapv2.LatLng(
+
+                        point.latitude,
+
+                        point.longitude
+                    )
+
+                );
+
+            }
+
+
+            // -------------------------------------------------
+            // 자동차 경로선
+            // -------------------------------------------------
+
+            new Tmapv2.Polyline({
+
+                path:
+                    polylinePath,
+
+                strokeWeight:
+                    7,
+
+                strokeColor:
+                    "#3478F6",
+
+                strokeOpacity:
+                    0.9,
+
+                map:
+                    map
+            });
+
+
+            // -------------------------------------------------
+            // 출발지와 목적지 중간을 지도 중심으로
+            // -------------------------------------------------
+
+            const centerLatitude =
+
+                (
+                    routeStartLatitude +
+                    routeEndLatitude
+                ) / 2;
+
+
+            const centerLongitude =
+
+                (
+                    routeStartLongitude +
+                    routeEndLongitude
+                ) / 2;
+
+
+            map.setCenter(
+
+                new Tmapv2.LatLng(
+
+                    centerLatitude,
+
+                    centerLongitude
+                )
+
+            );
+
+        }
+
+    }
+
+
+
+    // ========================================================
+    // 경로검색 후 페이지가 다시 열렸다면
+    // 경로 중심으로 바로 지도 표시
+    // ========================================================
+
+    if (
+        routeStartLatitude !== null &&
+        routeStartLongitude !== null
+    ) {
+
+
+        createMap(
+
+            routeStartLatitude,
+
+            routeStartLongitude
+        );
+
+    }
+
+
+</script>
+
+
+
+<!-- =========================================================
+     GPS 현재 위치
+========================================================== -->
+
+<script>
+
+
+    const locationStatus =
+        document.getElementById(
+            "locationStatus"
+        );
+
+
+    const locationCoordinates =
+        document.getElementById(
+            "locationCoordinates"
+        );
+
+
+    const latitudeInput =
+        document.getElementById(
+            "startLatitude"
+        );
+
+
+    const longitudeInput =
+        document.getElementById(
+            "startLongitude"
+        );
+
+
+    const searchButton =
+        document.getElementById(
+            "searchButton"
+        );
+
+
+
+    // ========================================================
+    // 브라우저 위치 기능 확인
+    // ========================================================
+
+    if (
+        "geolocation" in navigator
+    ) {
+
+
+        locationStatus.innerText =
+            "현재 위치를 확인하고 있습니다...";
+
+
+        // ====================================================
+        // GPS 요청
+        // ====================================================
+
+        navigator.geolocation.getCurrentPosition(
+
+
+            // =================================================
+            // 성공
+            // =================================================
+
+            function(position) {
+
+
+                const latitude =
+                    position.coords.latitude;
+
+
+                const longitude =
+                    position.coords.longitude;
+
+
+                console.log(
+                    "현재 위도:",
+                    latitude
+                );
+
+
+                console.log(
+                    "현재 경도:",
+                    longitude
+                );
+
+
+                // ---------------------------------------------
+                // Flask에 전달할 GPS 좌표
+                // ---------------------------------------------
+
+                latitudeInput.value =
+                    latitude;
+
+
+                longitudeInput.value =
+                    longitude;
+
+
+                // ---------------------------------------------
+                // 화면 표시
+                // ---------------------------------------------
+
+                locationStatus.innerText =
+                    "위치 확인 완료 ✅";
+
+
+                locationCoordinates.innerText =
+
+                    "위도: " +
+
+                    latitude.toFixed(6) +
+
+                    " / 경도: " +
+
+                    longitude.toFixed(6);
+
+
+                // ---------------------------------------------
+                // 경로 검색 활성화
+                // ---------------------------------------------
+
+                searchButton.disabled =
+                    false;
+
+
+                // =================================================
+                // 아직 경로 검색 전이라면
+                //
+                // 현재 GPS 위치 중심으로 지도 표시
+                // =================================================
+
+                if (
+                    routeStartLatitude === null
+                ) {
+
+
+                    createMap(
+
+                        latitude,
+
+                        longitude
+                    );
+
+
+                    // -----------------------------------------
+                    // 현재 위치 마커
+                    // -----------------------------------------
+
+                    if (
+                        map !== null
+                    ) {
+
+
+                        currentLocationMarker =
+                            new Tmapv2.Marker({
+
+                                position:
+                                    new Tmapv2.LatLng(
+
+                                        latitude,
+
+                                        longitude
+                                    ),
+
+                                map:
+                                    map
+                            });
+
+                    }
+
+                }
+
+            },
+
+
+            // =================================================
+            // GPS 실패
+            // =================================================
+
+            function(error) {
+
+
+                console.error(
+                    "GPS 오류:",
+                    error
+                );
+
+
+                if (
+                    error.code === 1
+                ) {
+
+
+                    locationStatus.innerText =
+                        "위치 권한이 차단되었습니다. 브라우저에서 위치 권한을 허용해주세요.";
+
+                }
+
+
+                else if (
+                    error.code === 2
+                ) {
+
+
+                    locationStatus.innerText =
+                        "현재 위치 정보를 찾을 수 없습니다.";
+
+                }
+
+
+                else if (
+                    error.code === 3
+                ) {
+
+
+                    locationStatus.innerText =
+                        "현재 위치 확인 시간이 초과되었습니다.";
+
+                }
+
+
+                else {
+
+
+                    locationStatus.innerText =
+                        "현재 위치를 가져올 수 없습니다.";
+
+                }
+
+
+                searchButton.disabled =
+                    true;
+
+            },
+
+
+            // =================================================
+            // GPS 옵션
+            // =================================================
+
+            {
+
+                enableHighAccuracy:
+                    true,
+
+                timeout:
+                    15000,
+
+                maximumAge:
+                    0
+            }
+
+        );
+
+    }
+
+
+    else {
+
+
+        locationStatus.innerText =
+            "현재 브라우저에서는 위치 기능을 지원하지 않습니다.";
+
+
+        searchButton.disabled =
+            true;
+
+    }
+
+
+</script>
+
+
+</body>
+
+</html>

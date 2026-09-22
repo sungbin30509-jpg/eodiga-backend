@@ -1,0 +1,8 @@
+{
+  "row_count": 127000,
+  "unique_user_count": 10000,
+  "unique_od_count": 600,
+  "missing_od_count": 0,
+  "original_time_candidate_count": 10000,
+  "output_file": "C:\\Users\\문성빈\\OneDrive\\바탕 화면\\flow\\FLOWMATE\\data\\generated\\user_departure_candidates_with_od.csv"
+}

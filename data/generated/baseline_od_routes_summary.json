@@ -1,0 +1,19 @@
+{
+  "od_result_file_count": 40,
+  "baseline_od_count": 40,
+  "skipped_read_count": 0,
+  "no_usable_route_count": 0,
+  "route_distribution": {
+    "A": 39,
+    "C": 1
+  },
+  "mapping_quality_distribution": {
+    "good": 24,
+    "recovered": 13,
+    "review": 3
+  },
+  "route_a_count": 39,
+  "fallback_route_count": 1,
+  "baseline_rule": "Use Route A when usable; otherwise B, then C.",
+  "output_file": "C:\\Users\\문성빈\\OneDrive\\바탕 화면\\flow\\FLOWMATE\\data\\generated\\baseline_od_routes.csv"
+}

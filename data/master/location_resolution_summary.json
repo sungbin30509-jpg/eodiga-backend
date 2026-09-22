@@ -1,0 +1,9 @@
+{
+  "total_location_count": 55,
+  "resolved_count": 55,
+  "failed_count": 0,
+  "success_rate_percent": 100.0,
+  "failed_location_ids": [],
+  "resolved_file": "C:\\Users\\문성빈\\OneDrive\\바탕 화면\\flow\\FLOWMATE\\data\\master\\resolved_location_master.csv",
+  "unresolved_file": "C:\\Users\\문성빈\\OneDrive\\바탕 화면\\flow\\FLOWMATE\\data\\master\\unresolved_location_master.csv"
+}

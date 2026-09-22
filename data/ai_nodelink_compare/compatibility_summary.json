@@ -1,0 +1,30 @@
+{
+  "route_adapter_file_count": 1,
+  "route_adapter_file_error_count": 0,
+  "route_adapter_status_counts": {
+    "success": 1
+  },
+  "route_nodelink_dataset_counts": {
+    "[2026-08-12] NODELINKDATA / MOCT_LINK": 1
+  },
+  "usable_route_count": 2,
+  "excluded_route_count": 1,
+  "route_link_row_count": 122,
+  "route_unique_link_count": 95,
+  "inside_route_link_row_count": 32,
+  "inside_unique_link_count": 16,
+  "ai_citywide_row_count": 10708,
+  "ai_citywide_unique_link_count": 10708,
+  "ai_citywide_duplicate_link_id_count": 0,
+  "inside_unique_link_matched_count": 16,
+  "inside_unique_link_missing_count": 0,
+  "inside_unique_link_match_percent": 100.0,
+  "inside_unique_link_bridge_count": 9,
+  "inside_unique_link_bridge_percent": 56.25,
+  "inside_length_abs_diff_max_m": 0.004495846848996621,
+  "inside_length_abs_diff_mean_m": 0.002774733199933155,
+  "ai_universe_file": "C:\\Users\\문성빈\\OneDrive\\바탕 화면\\FLOWMATE_PHASE2\\_ai_nodelink_compare_input\\확인용 파일(김호원)\\seongnam_citywide_links_v1.csv",
+  "ai_bridge_file": "C:\\Users\\문성빈\\OneDrive\\바탕 화면\\FLOWMATE_PHASE2\\_ai_nodelink_compare_input\\확인용 파일(김호원)\\segment_link_bridge_v1.csv",
+  "note": "AI universe가 성남 10,708 LINK universe이므로 성남 외부 Route LINK는 미매칭이어도 버전 불일치로 계산하지 않음.",
+  "file_errors": []
+}

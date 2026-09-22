@@ -1,0 +1,51 @@
+{
+  "validator_version": "route_adapter_validator_v2",
+  "node_link_dataset": "[2026-08-12] NODELINKDATA / MOCT_LINK",
+  "input_directory": "C:\\Users\\문성빈\\OneDrive\\바탕 화면\\flow\\FLOWMATE\\data\\routes\\od_pipeline",
+  "file_counts": {
+    "total_json_files": 601,
+    "total_od_files": 600,
+    "non_od_files": 1
+  },
+  "pipeline_counts": {
+    "ready": 600,
+    "pending_quota": 0,
+    "failed_other": 0,
+    "unknown": 0
+  },
+  "adapter_counts": {
+    "success": 600,
+    "error": 0
+  },
+  "validation_counts": {
+    "pass": 600,
+    "fail": 0
+  },
+  "usable_route_count_distribution": {
+    "0": 71,
+    "1": 23,
+    "2": 74,
+    "3": 432
+  },
+  "examples_by_usable_route_count": {
+    "0": "OD_000056",
+    "1": "OD_000031",
+    "2": "OD_000004",
+    "3": "OD_000001"
+  },
+  "mapping_quality_counts": {
+    "good": 1169,
+    "review": 167,
+    "recovered": 131
+  },
+  "total_exported_routes": 1467,
+  "global_route_id_unique": true,
+  "duplicate_route_ids": {},
+  "duplicate_link_route_count": 0,
+  "duplicate_link_routes": [],
+  "recovered_route_count": 131,
+  "review_route_count": 167,
+  "pending_quota_examples": [],
+  "pipeline_failed_examples": [],
+  "adapter_errors": []
+}

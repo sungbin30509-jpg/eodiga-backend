@@ -1,0 +1,951 @@
+{
+  "ai_model": {
+    "role": "baseline_future_traffic",
+    "model_version": "integration_demo_01",
+    "supported_link_count": 355,
+    "validation_status": "integration_demo_not_final",
+    "note": "Coverage only. No Traffic Response or Synthetic demand applied."
+  },
+  "routes": {
+    "A": {
+      "route": "A",
+      "route_id": "route_A",
+      "candidate_id": "A",
+      "route_file": "route_A_v2.json",
+      "total_link_count": 46,
+      "ai_supported_link_count": 0,
+      "ai_unsupported_link_count": 46,
+      "link_coverage_pct": 0.0,
+      "total_distance_m": 4265.02,
+      "ai_supported_distance_m": 0.0,
+      "ai_unsupported_distance_m": 4265.02,
+      "distance_coverage_pct": 0.0,
+      "supported_links": [],
+      "unsupported_links": [
+        {
+          "sequence": 0,
+          "link_id": "2050202503",
+          "road_name": "성남대로997번길",
+          "length_m": 234.21,
+          "ai_supported": false
+        },
+        {
+          "sequence": 1,
+          "link_id": "2050202502",
+          "road_name": "성남대로997번길",
+          "length_m": 82.59,
+          "ai_supported": false
+        },
+        {
+          "sequence": 2,
+          "link_id": "2060173202",
+          "road_name": "양현로",
+          "length_m": 19.58,
+          "ai_supported": false
+        },
+        {
+          "sequence": 3,
+          "link_id": "2060173209",
+          "road_name": "양현로",
+          "length_m": 66.08,
+          "ai_supported": false
+        },
+        {
+          "sequence": 4,
+          "link_id": "2060173207",
+          "road_name": "양현로",
+          "length_m": 58.89,
+          "ai_supported": false
+        },
+        {
+          "sequence": 5,
+          "link_id": "2060173208",
+          "road_name": "양현로",
+          "length_m": 242.46,
+          "ai_supported": false
+        },
+        {
+          "sequence": 6,
+          "link_id": "2060171900",
+          "road_name": "양현로",
+          "length_m": 57.39,
+          "ai_supported": false
+        },
+        {
+          "sequence": 7,
+          "link_id": "2060171901",
+          "road_name": "양현로",
+          "length_m": 12.47,
+          "ai_supported": false
+        },
+        {
+          "sequence": 8,
+          "link_id": "2060164400",
+          "road_name": "양현로",
+          "length_m": 164.7,
+          "ai_supported": false
+        },
+        {
+          "sequence": 9,
+          "link_id": "2060164401",
+          "road_name": "양현로",
+          "length_m": 13.65,
+          "ai_supported": false
+        },
+        {
+          "sequence": 10,
+          "link_id": "2060162000",
+          "road_name": "양현로",
+          "length_m": 110.29,
+          "ai_supported": false
+        },
+        {
+          "sequence": 11,
+          "link_id": "2060162001",
+          "road_name": "양현로",
+          "length_m": 13.48,
+          "ai_supported": false
+        },
+        {
+          "sequence": 12,
+          "link_id": "2060154200",
+          "road_name": "양현로",
+          "length_m": 200.56,
+          "ai_supported": false
+        },
+        {
+          "sequence": 13,
+          "link_id": "2060154201",
+          "road_name": "양현로",
+          "length_m": 12.0,
+          "ai_supported": false
+        },
+        {
+          "sequence": 14,
+          "link_id": "2060152000",
+          "road_name": "양현로",
+          "length_m": 181.91,
+          "ai_supported": false
+        },
+        {
+          "sequence": 15,
+          "link_id": "2060142700",
+          "road_name": "양현로",
+          "length_m": 272.04,
+          "ai_supported": false
+        },
+        {
+          "sequence": 16,
+          "link_id": "2060140200",
+          "road_name": "판교로",
+          "length_m": 150.76,
+          "ai_supported": false
+        },
+        {
+          "sequence": 17,
+          "link_id": "2060140201",
+          "road_name": "판교로",
+          "length_m": 12.04,
+          "ai_supported": false
+        },
+        {
+          "sequence": 18,
+          "link_id": "2060140600",
+          "road_name": "판교로",
+          "length_m": 163.78,
+          "ai_supported": false
+        },
+        {
+          "sequence": 19,
+          "link_id": "2060140601",
+          "road_name": "판교로",
+          "length_m": 12.0,
+          "ai_supported": false
+        },
+        {
+          "sequence": 20,
+          "link_id": "2060141200",
+          "road_name": "판교로",
+          "length_m": 71.96,
+          "ai_supported": false
+        },
+        {
+          "sequence": 21,
+          "link_id": "2060141202",
+          "road_name": "판교로",
+          "length_m": 129.82,
+          "ai_supported": false
+        },
+        {
+          "sequence": 22,
+          "link_id": "2060141201",
+          "road_name": "판교로",
+          "length_m": 22.85,
+          "ai_supported": false
+        },
+        {
+          "sequence": 23,
+          "link_id": "2060359800",
+          "road_name": "판교로",
+          "length_m": 128.4,
+          "ai_supported": false
+        },
+        {
+          "sequence": 24,
+          "link_id": "2060359802",
+          "road_name": "판교로",
+          "length_m": 150.13,
+          "ai_supported": false
+        },
+        {
+          "sequence": 25,
+          "link_id": "2060359801",
+          "road_name": "판교로",
+          "length_m": 10.76,
+          "ai_supported": false
+        },
+        {
+          "sequence": 26,
+          "link_id": "2060359600",
+          "road_name": "판교로",
+          "length_m": 71.64,
+          "ai_supported": false
+        },
+        {
+          "sequence": 27,
+          "link_id": "2060359601",
+          "road_name": "판교로",
+          "length_m": 12.0,
+          "ai_supported": false
+        },
+        {
+          "sequence": 28,
+          "link_id": "2060359200",
+          "road_name": "판교로",
+          "length_m": 213.93,
+          "ai_supported": false
+        },
+        {
+          "sequence": 29,
+          "link_id": "2060359201",
+          "road_name": "판교로",
+          "length_m": 22.56,
+          "ai_supported": false
+        },
+        {
+          "sequence": 30,
+          "link_id": "2060181802",
+          "road_name": "판교로",
+          "length_m": 265.92,
+          "ai_supported": false
+        },
+        {
+          "sequence": 31,
+          "link_id": "2060181805",
+          "road_name": "판교로",
+          "length_m": 12.0,
+          "ai_supported": false
+        },
+        {
+          "sequence": 32,
+          "link_id": "2060348002",
+          "road_name": "판교로319번길",
+          "length_m": 12.72,
+          "ai_supported": false
+        },
+        {
+          "sequence": 33,
+          "link_id": "2060207101",
+          "road_name": "판교역로",
+          "length_m": 74.52,
+          "ai_supported": false
+        },
+        {
+          "sequence": 34,
+          "link_id": "2060207107",
+          "road_name": "판교역로",
+          "length_m": 12.0,
+          "ai_supported": false
+        },
+        {
+          "sequence": 35,
+          "link_id": "2060207103",
+          "road_name": "판교역로",
+          "length_m": 152.61,
+          "ai_supported": false
+        },
+        {
+          "sequence": 36,
+          "link_id": "2060207105",
+          "road_name": "판교역로",
+          "length_m": 12.0,
+          "ai_supported": false
+        },
+        {
+          "sequence": 37,
+          "link_id": "2060207104",
+          "road_name": "판교역로",
+          "length_m": 112.73,
+          "ai_supported": false
+        },
+        {
+          "sequence": 38,
+          "link_id": "2060207106",
+          "road_name": "판교역로",
+          "length_m": 7.46,
+          "ai_supported": false
+        },
+        {
+          "sequence": 39,
+          "link_id": "2060197600",
+          "road_name": "판교역로",
+          "length_m": 225.17,
+          "ai_supported": false
+        },
+        {
+          "sequence": 40,
+          "link_id": "2060197601",
+          "road_name": "판교역로",
+          "length_m": 6.87,
+          "ai_supported": false
+        },
+        {
+          "sequence": 41,
+          "link_id": "2060194200",
+          "road_name": "판교역로",
+          "length_m": 161.98,
+          "ai_supported": false
+        },
+        {
+          "sequence": 42,
+          "link_id": "2060194201",
+          "road_name": "판교역로",
+          "length_m": 8.22,
+          "ai_supported": false
+        },
+        {
+          "sequence": 43,
+          "link_id": "2060197801",
+          "road_name": "대왕판교로606번길",
+          "length_m": 13.58,
+          "ai_supported": false
+        },
+        {
+          "sequence": 44,
+          "link_id": "2060194001",
+          "road_name": "대왕판교로606번길",
+          "length_m": 58.08,
+          "ai_supported": false
+        },
+        {
+          "sequence": 45,
+          "link_id": "2060194002",
+          "road_name": "대왕판교로606번길",
+          "length_m": 214.23,
+          "ai_supported": false
+        }
+      ]
+    },
+    "B": {
+      "route": "B",
+      "route_id": "route_B",
+      "candidate_id": "B",
+      "route_file": "route_B_v2.json",
+      "total_link_count": 44,
+      "ai_supported_link_count": 0,
+      "ai_unsupported_link_count": 44,
+      "link_coverage_pct": 0.0,
+      "total_distance_m": 5046.46,
+      "ai_supported_distance_m": 0.0,
+      "ai_unsupported_distance_m": 5046.46,
+      "distance_coverage_pct": 0.0,
+      "supported_links": [],
+      "unsupported_links": [
+        {
+          "sequence": 0,
+          "link_id": "2050202503",
+          "road_name": "성남대로997번길",
+          "length_m": 234.21,
+          "ai_supported": false
+        },
+        {
+          "sequence": 1,
+          "link_id": "2050202502",
+          "road_name": "성남대로997번길",
+          "length_m": 82.59,
+          "ai_supported": false
+        },
+        {
+          "sequence": 2,
+          "link_id": "2060173202",
+          "road_name": "양현로",
+          "length_m": 19.58,
+          "ai_supported": false
+        },
+        {
+          "sequence": 3,
+          "link_id": "2060173209",
+          "road_name": "양현로",
+          "length_m": 66.08,
+          "ai_supported": false
+        },
+        {
+          "sequence": 4,
+          "link_id": "2060173207",
+          "road_name": "양현로",
+          "length_m": 58.89,
+          "ai_supported": false
+        },
+        {
+          "sequence": 5,
+          "link_id": "2060173208",
+          "road_name": "양현로",
+          "length_m": 242.46,
+          "ai_supported": false
+        },
+        {
+          "sequence": 6,
+          "link_id": "2060171900",
+          "road_name": "양현로",
+          "length_m": 57.39,
+          "ai_supported": false
+        },
+        {
+          "sequence": 7,
+          "link_id": "2060169000",
+          "road_name": "장미로",
+          "length_m": 163.0,
+          "ai_supported": false
+        },
+        {
+          "sequence": 8,
+          "link_id": "2060169300",
+          "road_name": "탄천로",
+          "length_m": 392.07,
+          "ai_supported": false
+        },
+        {
+          "sequence": 9,
+          "link_id": "2060169303",
+          "road_name": "탄천로",
+          "length_m": 256.87,
+          "ai_supported": false
+        },
+        {
+          "sequence": 10,
+          "link_id": "2060169301",
+          "road_name": "탄천로",
+          "length_m": 12.66,
+          "ai_supported": false
+        },
+        {
+          "sequence": 11,
+          "link_id": "2040411501",
+          "road_name": "사송로",
+          "length_m": 12.0,
+          "ai_supported": false
+        },
+        {
+          "sequence": 12,
+          "link_id": "2040411500",
+          "road_name": "사송로",
+          "length_m": 403.38,
+          "ai_supported": false
+        },
+        {
+          "sequence": 13,
+          "link_id": "2040008203",
+          "road_name": "사송로",
+          "length_m": 37.68,
+          "ai_supported": false
+        },
+        {
+          "sequence": 14,
+          "link_id": "2040008205",
+          "road_name": "사송로",
+          "length_m": 12.71,
+          "ai_supported": false
+        },
+        {
+          "sequence": 15,
+          "link_id": "2040008204",
+          "road_name": "사송로",
+          "length_m": 87.71,
+          "ai_supported": false
+        },
+        {
+          "sequence": 16,
+          "link_id": "2040008208",
+          "road_name": "사송로",
+          "length_m": 51.05,
+          "ai_supported": false
+        },
+        {
+          "sequence": 17,
+          "link_id": "2040008206",
+          "road_name": "사송로",
+          "length_m": 10.9,
+          "ai_supported": false
+        },
+        {
+          "sequence": 18,
+          "link_id": "2040410700",
+          "road_name": "동판교로",
+          "length_m": 328.57,
+          "ai_supported": false
+        },
+        {
+          "sequence": 19,
+          "link_id": "2040410701",
+          "road_name": "동판교로",
+          "length_m": 375.89,
+          "ai_supported": false
+        },
+        {
+          "sequence": 20,
+          "link_id": "2060360600",
+          "road_name": "동판교로",
+          "length_m": 51.39,
+          "ai_supported": false
+        },
+        {
+          "sequence": 21,
+          "link_id": "2060360603",
+          "road_name": "동판교로",
+          "length_m": 138.31,
+          "ai_supported": false
+        },
+        {
+          "sequence": 22,
+          "link_id": "2060360602",
+          "road_name": "동판교로",
+          "length_m": 98.45,
+          "ai_supported": false
+        },
+        {
+          "sequence": 23,
+          "link_id": "2060360401",
+          "road_name": "동판교로",
+          "length_m": 12.0,
+          "ai_supported": false
+        },
+        {
+          "sequence": 24,
+          "link_id": "2060360200",
+          "road_name": "동판교로",
+          "length_m": 118.22,
+          "ai_supported": false
+        },
+        {
+          "sequence": 25,
+          "link_id": "2060352000",
+          "road_name": "동판교로",
+          "length_m": 135.82,
+          "ai_supported": false
+        },
+        {
+          "sequence": 26,
+          "link_id": "2060359200",
+          "road_name": "판교로",
+          "length_m": 213.93,
+          "ai_supported": false
+        },
+        {
+          "sequence": 27,
+          "link_id": "2060359201",
+          "road_name": "판교로",
+          "length_m": 22.56,
+          "ai_supported": false
+        },
+        {
+          "sequence": 28,
+          "link_id": "2060181802",
+          "road_name": "판교로",
+          "length_m": 265.92,
+          "ai_supported": false
+        },
+        {
+          "sequence": 29,
+          "link_id": "2060181805",
+          "road_name": "판교로",
+          "length_m": 12.0,
+          "ai_supported": false
+        },
+        {
+          "sequence": 30,
+          "link_id": "2060348002",
+          "road_name": "판교로319번길",
+          "length_m": 12.72,
+          "ai_supported": false
+        },
+        {
+          "sequence": 31,
+          "link_id": "2060207101",
+          "road_name": "판교역로",
+          "length_m": 74.52,
+          "ai_supported": false
+        },
+        {
+          "sequence": 32,
+          "link_id": "2060207107",
+          "road_name": "판교역로",
+          "length_m": 12.0,
+          "ai_supported": false
+        },
+        {
+          "sequence": 33,
+          "link_id": "2060207103",
+          "road_name": "판교역로",
+          "length_m": 152.61,
+          "ai_supported": false
+        },
+        {
+          "sequence": 34,
+          "link_id": "2060207105",
+          "road_name": "판교역로",
+          "length_m": 12.0,
+          "ai_supported": false
+        },
+        {
+          "sequence": 35,
+          "link_id": "2060207104",
+          "road_name": "판교역로",
+          "length_m": 112.73,
+          "ai_supported": false
+        },
+        {
+          "sequence": 36,
+          "link_id": "2060207106",
+          "road_name": "판교역로",
+          "length_m": 7.46,
+          "ai_supported": false
+        },
+        {
+          "sequence": 37,
+          "link_id": "2060197600",
+          "road_name": "판교역로",
+          "length_m": 225.17,
+          "ai_supported": false
+        },
+        {
+          "sequence": 38,
+          "link_id": "2060197601",
+          "road_name": "판교역로",
+          "length_m": 6.87,
+          "ai_supported": false
+        },
+        {
+          "sequence": 39,
+          "link_id": "2060194200",
+          "road_name": "판교역로",
+          "length_m": 161.98,
+          "ai_supported": false
+        },
+        {
+          "sequence": 40,
+          "link_id": "2060194201",
+          "road_name": "판교역로",
+          "length_m": 8.22,
+          "ai_supported": false
+        },
+        {
+          "sequence": 41,
+          "link_id": "2060197801",
+          "road_name": "대왕판교로606번길",
+          "length_m": 13.58,
+          "ai_supported": false
+        },
+        {
+          "sequence": 42,
+          "link_id": "2060194001",
+          "road_name": "대왕판교로606번길",
+          "length_m": 58.08,
+          "ai_supported": false
+        },
+        {
+          "sequence": 43,
+          "link_id": "2060194002",
+          "road_name": "대왕판교로606번길",
+          "length_m": 214.23,
+          "ai_supported": false
+        }
+      ]
+    },
+    "C": {
+      "route": "C",
+      "route_id": "route_C",
+      "candidate_id": "C",
+      "route_file": "route_C_v2.json",
+      "total_link_count": 37,
+      "ai_supported_link_count": 0,
+      "ai_unsupported_link_count": 37,
+      "link_coverage_pct": 0.0,
+      "total_distance_m": 3838.44,
+      "ai_supported_distance_m": 0.0,
+      "ai_unsupported_distance_m": 3838.44,
+      "distance_coverage_pct": 0.0,
+      "supported_links": [],
+      "unsupported_links": [
+        {
+          "sequence": 0,
+          "link_id": "2050202503",
+          "road_name": "성남대로997번길",
+          "length_m": 234.21,
+          "ai_supported": false
+        },
+        {
+          "sequence": 1,
+          "link_id": "2050202502",
+          "road_name": "성남대로997번길",
+          "length_m": 82.59,
+          "ai_supported": false
+        },
+        {
+          "sequence": 2,
+          "link_id": "2060173202",
+          "road_name": "양현로",
+          "length_m": 19.58,
+          "ai_supported": false
+        },
+        {
+          "sequence": 3,
+          "link_id": "2060173209",
+          "road_name": "양현로",
+          "length_m": 66.08,
+          "ai_supported": false
+        },
+        {
+          "sequence": 4,
+          "link_id": "2060173207",
+          "road_name": "양현로",
+          "length_m": 58.89,
+          "ai_supported": false
+        },
+        {
+          "sequence": 5,
+          "link_id": "2060173208",
+          "road_name": "양현로",
+          "length_m": 242.46,
+          "ai_supported": false
+        },
+        {
+          "sequence": 6,
+          "link_id": "2060171900",
+          "road_name": "양현로",
+          "length_m": 57.39,
+          "ai_supported": false
+        },
+        {
+          "sequence": 7,
+          "link_id": "2060169000",
+          "road_name": "장미로",
+          "length_m": 163.0,
+          "ai_supported": false
+        },
+        {
+          "sequence": 8,
+          "link_id": "2060169001",
+          "road_name": "장미로",
+          "length_m": 12.0,
+          "ai_supported": false
+        },
+        {
+          "sequence": 9,
+          "link_id": "2060169201",
+          "road_name": "탄천로",
+          "length_m": 12.02,
+          "ai_supported": false
+        },
+        {
+          "sequence": 10,
+          "link_id": "2060152600",
+          "road_name": "탄천로",
+          "length_m": 179.33,
+          "ai_supported": false
+        },
+        {
+          "sequence": 11,
+          "link_id": "2060152602",
+          "road_name": "탄천로",
+          "length_m": 287.71,
+          "ai_supported": false
+        },
+        {
+          "sequence": 12,
+          "link_id": "2060152601",
+          "road_name": "탄천로",
+          "length_m": 12.0,
+          "ai_supported": false
+        },
+        {
+          "sequence": 13,
+          "link_id": "2060151200",
+          "road_name": "탄천로",
+          "length_m": 44.93,
+          "ai_supported": false
+        },
+        {
+          "sequence": 14,
+          "link_id": "2060151201",
+          "road_name": "탄천로",
+          "length_m": 12.02,
+          "ai_supported": false
+        },
+        {
+          "sequence": 15,
+          "link_id": "2060142800",
+          "road_name": "탄천로",
+          "length_m": 291.83,
+          "ai_supported": false
+        },
+        {
+          "sequence": 16,
+          "link_id": "2060141400",
+          "road_name": "판교로429번길",
+          "length_m": 232.25,
+          "ai_supported": false
+        },
+        {
+          "sequence": 17,
+          "link_id": "2060141200",
+          "road_name": "판교로",
+          "length_m": 71.96,
+          "ai_supported": false
+        },
+        {
+          "sequence": 18,
+          "link_id": "2060141202",
+          "road_name": "판교로",
+          "length_m": 129.82,
+          "ai_supported": false
+        },
+        {
+          "sequence": 19,
+          "link_id": "2060141201",
+          "road_name": "판교로",
+          "length_m": 22.85,
+          "ai_supported": false
+        },
+        {
+          "sequence": 20,
+          "link_id": "2060359800",
+          "road_name": "판교로",
+          "length_m": 128.4,
+          "ai_supported": false
+        },
+        {
+          "sequence": 21,
+          "link_id": "2060359802",
+          "road_name": "판교로",
+          "length_m": 150.13,
+          "ai_supported": false
+        },
+        {
+          "sequence": 22,
+          "link_id": "2060359801",
+          "road_name": "판교로",
+          "length_m": 10.76,
+          "ai_supported": false
+        },
+        {
+          "sequence": 23,
+          "link_id": "2060359600",
+          "road_name": "판교로",
+          "length_m": 71.64,
+          "ai_supported": false
+        },
+        {
+          "sequence": 24,
+          "link_id": "2060359601",
+          "road_name": "판교로",
+          "length_m": 12.0,
+          "ai_supported": false
+        },
+        {
+          "sequence": 25,
+          "link_id": "2060359200",
+          "road_name": "판교로",
+          "length_m": 213.93,
+          "ai_supported": false
+        },
+        {
+          "sequence": 26,
+          "link_id": "2060359201",
+          "road_name": "판교로",
+          "length_m": 22.56,
+          "ai_supported": false
+        },
+        {
+          "sequence": 27,
+          "link_id": "2060359401",
+          "road_name": "분당내곡로",
+          "length_m": 12.78,
+          "ai_supported": false
+        },
+        {
+          "sequence": 28,
+          "link_id": "2060181900",
+          "road_name": "분당내곡로",
+          "length_m": 365.9,
+          "ai_supported": false
+        },
+        {
+          "sequence": 29,
+          "link_id": "2060181901",
+          "road_name": "분당내곡로",
+          "length_m": 7.36,
+          "ai_supported": false
+        },
+        {
+          "sequence": 30,
+          "link_id": "2060194600",
+          "road_name": "분당내곡로",
+          "length_m": 161.54,
+          "ai_supported": false
+        },
+        {
+          "sequence": 31,
+          "link_id": "2060194601",
+          "road_name": "분당내곡로",
+          "length_m": 7.15,
+          "ai_supported": false
+        },
+        {
+          "sequence": 32,
+          "link_id": "2060193601",
+          "road_name": "분당내곡로",
+          "length_m": 116.61,
+          "ai_supported": false
+        },
+        {
+          "sequence": 33,
+          "link_id": "2060193603",
+          "road_name": "분당내곡로",
+          "length_m": 12.0,
+          "ai_supported": false
+        },
+        {
+          "sequence": 34,
+          "link_id": "2060193602",
+          "road_name": "분당내곡로",
+          "length_m": 98.53,
+          "ai_supported": false
+        },
+        {
+          "sequence": 35,
+          "link_id": "2060193801",
+          "road_name": "대왕판교로606번길",
+          "length_m": 46.51,
+          "ai_supported": false
+        },
+        {
+          "sequence": 36,
+          "link_id": "2060193805",
+          "road_name": "대왕판교로606번길",
+          "length_m": 167.72,
+          "ai_supported": false
+        }
+      ]
+    }
+  }
+}
